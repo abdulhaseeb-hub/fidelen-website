@@ -10225,3 +10225,7 @@ body.dark .sheet-table {
     row-gap: 20px;
   }
 }
+
+.mt-px-5{
+  margin-top: 5px;
+}
