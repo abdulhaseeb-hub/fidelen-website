@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Fidelen</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+     <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="d-flex align-items-center">
+        <a href="index.html" class="logo mb-2 me-3 "><img src="assets/img/brandLogo.svg" alt="" class="img-fluid"></a>
+        <nav id="navbar" class="navbar">
+        <a href="index.html" class="nav-mobile-logo logo mb-2 me-3"><img src="assets/img/brandLogo.svg" alt="" class="img-fluid"></a>
+          <ul>
+            <li><a class="nav-link scrollto active" href="homepage.html" >Home</a></li>
+            <li><a class="nav-link scrollto" href="about-us.html">About</a></li>
+            <li><a class="nav-link scrollto" href="profile.html">Profile</a></li>
+            <li><a class="nav-link scrollto" href="vendor-levels.html">Vendor Levels</a></li>
+            <li><a class="nav-link scrollto" href="pricing.html">Pricing</a></li>
+            <li><a class="nav-link scrollto" href="contact-us.html">Contact Us</a></li>
+          </ul>
+          <!-- <i class="bi bi-list mobile-nav-toggle me-3"></i> -->
+        </nav><!-- .navbar -->
+      </div>
+
+      <div class="right-navbar">
+        <ul class="right-ul gap-4">
+            <li>
+                <div class="select-box">
+                    <div class="select-box__current" tabindex="1">
+                      <div class="select-box__value">
+                        <input class="select-box__input" type="radio" id="0" value="1" name="Ben" checked="checked"/>
+                        <p class="select-box__input-text">Arabic</p>
+                      </div>
+                      <div class="select-box__value">
+                        <input class="select-box__input" type="radio" id="1" value="2" name="Ben" checked="checked"/>
+                        <p class="select-box__input-text">English</p>
+                      </div>
+
+                      <i class="fas fa-caret-down select-box__icon"></i>
+                    </div>
+                    <ul class="select-box__list">
+                      <li>
+                        <label class="select-box__option" for="0" aria-hidden="aria-hidden">Arabic</label>
+                      </li>
+                      <li>
+                        <label class="select-box__option" for="1" aria-hidden="aria-hidden">English</label>
+                      </li>
+                    </ul>
+                  </div>
+            </li>
+            <li class="avatar">
+                <div class="avatar-48">
+                    <img src="assets/img/user-2.jpg" class="img-fluid rounded-circle">
+                </div>
+            </li>
+
+            <i class="bi bi-list mobile-nav-toggle ms-3"></i>
+        </ul>
+    </div>
+
+    </div>
+  </header><!-- End Header -->
+
+    <section class="vendors-hero">
+        <div class="hero-section">
+            <div class="my-md-5 py-4 px-md-0 px-3">
+                <h1 class="fs-64 text-center fw-medium mt-2 mb-1 pb-2">
+                    Tell us what your business needs.
+                </h1>
+
+                <p class="color-gray-700 fs-24 fw-medium px-2 max-width-960 text-center mx-auto mb-4">
+                    From maintenance to accounting services and retail shopfitting to customized furniture, we connect
+                    you with trustworthy service providers to get the job done and guaranteed.
+                </p>
+
+                <div class="mx-auto max-width-900">
+                    <div class="input-group custom-search input-group-border-after mt-5 mb-4">
+                        <input type="text" class="form-control ps-4 height-px-50 input-lg-placeholder"
+                            placeholder="Search any product or service ..." aria-label="Recipient's username"
+                            aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><i class="fa fa-search"></i></span>
+                    </div>
+
+                    <div class="d-flex gap-1 mb-4 flex-wrap row-gap-px-16 justify-content-center">
+                        <div
+                            class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-color-white-40 bg-white-40 py-2 px-lg-3 align-items-center">
+                            <img src="assets/img/communication.svg" />
+                            <span class="fs-16 fw-medium color-gray-900">Communications</span>
+                        </div>
+                        <div
+                            class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-color-white-40 bg-white-40 py-2 px-lg-3 align-items-center">
+                            <img src="assets/img/consultancy.svg" />
+                            <span class="fs-16 fw-medium color-gray-900">Consultations</span>
+                        </div>
+                        <div
+                            class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-color-white-40 bg-white-40 py-2 px-lg-3 align-items-center">
+                            <img src="assets/img/furniture.svg" />
+                            <span class="fs-16 fw-medium color-gray-900">Furniture</span>
+                        </div>
+                        <div
+                            class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-color-white-40 bg-white-40 py-2 px-lg-3 align-items-center">
+                            <img src="assets/img/health.svg" />
+                            <span class="fs-16 fw-medium color-gray-900">Health Care</span>
+                        </div>
+                        <div
+                            class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-color-white-40 bg-white-40 py-2 px-lg-3 align-items-center">
+                            <img src="assets/img/IT.svg" />
+                            <span class="fs-16 fw-medium color-gray-900">IT & Softwares</span>
+                        </div>
+                        <div
+                            class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-color-white-40 bg-white-40 py-2 px-lg-3 align-items-center">
+                            <img src="assets/img/construction.svg" />
+                            <span class="fs-16 fw-medium color-gray-900">Interior Decoration & Constructions</span>
+                        </div>
+                        <div
+                            class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-color-white-40 bg-white-40 py-2 px-lg-3 align-items-center">
+                            <img src="assets/img/wrench.svg" />
+                            <span class="fs-16 fw-medium color-gray-900">Repair & Maintenance</span>
+                        </div>
+                        <div
+                            class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-color-white-40 bg-white-40 py-2 px-lg-3 align-items-center">
+                            <img src="assets/img/truck.svg" />
+                            <span class="fs-16 fw-medium color-gray-900">Shipping & Warehouse</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5 pt-md-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-30">
+                <h3 class="fs-40 fw-bold mb-0">Recommended for you</h3>
+                <a href="" class="fs-18 fw-medium href-primary">View all <i
+                        class="fa-solid fa-arrow-right-long ms-1"></i></a>
+            </div>
+
+            <div class="d-grid grid-template-columns-303 gap-50-20 responsive-grid">
+                <div class="d-flex flex-column">
+                    <div class=" md-horizontal-image flex-shrink-0 position-relative">
+                        <img src="assets/img/recomended-1.png"
+                            class=" width-px-303 height-px-320 object-fit-cover border-radius-16" alt="Image" />
+                        <div class="bg-primary text-white position-absolute top-12 start-12 rounded-4 fs-11 py-1 px-2">
+                            25% OFF</div>
+                    </div>
+                    <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate mt-2">
+                        Restaurant tables and chairs </div>
+                    <div class="color-gray-500 fs-14">@Khurram</div>
+
+                    <div class="align-items-center d-flex gap-4 mt-1">
+                        <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                        <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                            <svg class="icon icon-star-fill me-1 fill-yellow">
+                                <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                </use>
+                            </svg>4.8
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column">
+                    <div class="md-horizontal-image flex-shrink-0">
+                        <img src="assets/img/recomended-2.png"
+                            class=" width-px-303 height-px-320 object-fit-cover border-radius-16" alt="Image" />
+                    </div>
+                    <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate mt-2">
+                        Kitchen Duct full set</div>
+                    <div class="color-gray-500 fs-14">@Khurram</div>
+
+                    <div class="align-items-center d-flex gap-4 mt-1">
+                        <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                        <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                            <svg class="icon icon-star-fill me-1 fill-yellow">
+                                <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                </use>
+                            </svg>4.8
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column">
+                    <div class="md-horizontal-image flex-shrink-0">
+                        <img src="assets/img/recomended-3.png"
+                            class=" width-px-303 height-px-320 object-fit-cover border-radius-16" alt="Image" />
+                    </div>
+                    <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate mt-2">
+                        CCTV Cameras </div>
+                    <div class="color-gray-500 fs-14">@Khurram</div>
+
+                    <div class="align-items-center d-flex gap-4 mt-1">
+                        <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                        <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                            <svg class="icon icon-star-fill me-1 fill-yellow">
+                                <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                </use>
+                            </svg>4.8
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column">
+                    <div class="md-horizontal-image flex-shrink-0">
+                        <img src="assets/img/recomended-4.png"
+                            class=" width-px-303 height-px-320 object-fit-cover border-radius-16" alt="Image" />
+                    </div>
+                    <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate mt-2">
+                        Website development</div>
+                    <div class="color-gray-500 fs-14">@Khurram</div>
+
+                    <div class="align-items-center d-flex gap-4 mt-1">
+                        <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                        <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                            <svg class="icon icon-star-fill me-1 fill-yellow">
+                                <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                </use>
+                            </svg>4.8
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column">
+                    <div class="md-horizontal-image flex-shrink-0">
+                        <img src="assets/img/recomended-5.png"
+                            class=" width-px-303 height-px-320 object-fit-cover border-radius-16" alt="Image" />
+                    </div>
+                    <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate mt-2">
+                        Brand Identity Design </div>
+                    <div class="color-gray-500 fs-14">@Khurram</div>
+
+                    <div class="align-items-center d-flex gap-4 mt-1">
+                        <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                        <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                            <svg class="icon icon-star-fill me-1 fill-yellow">
+                                <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                </use>
+                            </svg>4.8
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column">
+                    <div class="md-horizontal-image flex-shrink-0">
+                        <img src="assets/img/recomended-6.png"
+                            class=" width-px-303 height-px-320 object-fit-cover border-radius-16" alt="Image" />
+                    </div>
+                    <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate mt-2">
+                        UX audit and design services </div>
+                    <div class="color-gray-500 fs-14">@Khurram</div>
+
+                    <div class="align-items-center d-flex gap-4 mt-1">
+                        <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                        <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                            <svg class="icon icon-star-fill me-1 fill-yellow">
+                                <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                </use>
+                            </svg>4.8
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column">
+                    <div class="md-horizontal-image flex-shrink-0">
+                        <img src="assets/img/recomended-7.png"
+                            class=" width-px-303 height-px-320 object-fit-cover border-radius-16" alt="Image" />
+                    </div>
+                    <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate mt-2">
+                        Health Care services </div>
+                    <div class="color-gray-500 fs-14">@Khurram</div>
+
+                    <div class="align-items-center d-flex gap-4 mt-1">
+                        <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                        <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                            <svg class="icon icon-star-fill me-1 fill-yellow">
+                                <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                </use>
+                            </svg>4.8
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column">
+                    <div class="md-horizontal-image flex-shrink-0">
+                        <img src="assets/img/recomended-8.png"
+                            class=" width-px-303 height-px-320 object-fit-cover border-radius-16" alt="Image" />
+                    </div>
+                    <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate mt-2">
+                        Cleaning and sanitizations </div>
+                    <div class="color-gray-500 fs-14">@Khurram</div>
+
+                    <div class="align-items-center d-flex gap-4 mt-1">
+                        <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                        <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                            <svg class="icon icon-star-fill me-1 fill-yellow">
+                                <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                </use>
+                            </svg>4.8
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-5 pt-md-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-30">
+                <h3 class="fs-40 fw-bold mb-0">Weekly Deals</h3>
+                <a href="" class="fs-18 fw-medium href-primary">View all <i
+                        class="fa-solid fa-arrow-right-long ms-1"></i></a>
+            </div>
+
+            <div id="carouselExampleControls" class="carousel slide homepageSlider" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="">
+                            <img src="assets/img/slider-1.png" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="">
+                            <img src="assets/img/slider-2.png" class="d-block w-100" alt="...">
+                        </a>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="mt-5 pt-md-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-30">
+                <h3 class="fs-40 fw-bold mb-0">Popular Categories</h3>
+                <a href="categories.html" class="fs-18 fw-medium href-primary">View all <i
+                        class="fa-solid fa-arrow-right-long ms-1"></i></a>
+            </div>
+
+            <div class="d-grid grid-template-columns-303 gap-50-20">
+                <div class="d-flex gap-3 align-items-center">
+                    <div class=" md-horizontal-image flex-shrink-0 position-relative">
+                        <img src="assets/img/popular-1.png"
+                            class=" width-px-100 height-px-100 object-fit-cover border-radius-16" alt="Image" />
+                    </div>
+                    <div class="fw-bold fs-18 color-gray-900 width-px-145 mt-2">
+                        Cleaning & Sanitization </div>
+                </div>
+
+                <div class="d-flex gap-3 align-items-center">
+                    <div class="md-horizontal-image flex-shrink-0">
+                        <img src="assets/img/popular-8.png"
+                            class=" width-px-100 height-px-100 object-fit-cover border-radius-16" alt="Image" />
+                    </div>
+                    <div class="fw-bold fs-18 color-gray-900 width-px-145 mt-2">
+                        Education & Learning</div>
+                </div>
+
+                <div class="d-flex gap-3 align-items-center">
+                    <div class="md-horizontal-image flex-shrink-0">
+                        <img src="assets/img/popular-2.png"
+                            class=" width-px-100 height-px-100 object-fit-cover border-radius-16" alt="Image" />
+                    </div>
+                    <div class="fw-bold fs-18 color-gray-900 width-px-145 mt-2">
+                        Human Resources</div>
+                </div>
+
+                <div class="d-flex gap-3 align-items-center">
+                    <div class="md-horizontal-image flex-shrink-0">
+                        <img src="assets/img/popular-3.png"
+                            class=" width-px-100 height-px-100 object-fit-cover border-radius-16" alt="Image" />
+                    </div>
+                    <div class="fw-bold fs-18 color-gray-900 width-px-145 mt-2">
+                        Garden and Outdoor</div>
+                </div>
+
+                <div class="d-flex gap-3 align-items-center">
+                    <div class="md-horizontal-image flex-shrink-0">
+                        <img src="assets/img/popular-7.png"
+                            class=" width-px-100 height-px-100 object-fit-cover border-radius-16" alt="Image" />
+                    </div>
+                    <div class="fw-bold fs-18 color-gray-900 width-px-145 mt-2">
+                        Industrial Supplies</div>
+                </div>
+
+                <div class="d-flex gap-3 align-items-center">
+                    <div class="md-horizontal-image flex-shrink-0">
+                        <img src="assets/img/popular-6.png"
+                            class=" width-px-100 height-px-100 object-fit-cover border-radius-16" alt="Image" />
+                    </div>
+                    <div class="fw-bold fs-18 color-gray-900 width-px-145 mt-2">
+                        Financial Services</div>
+                </div>
+
+                <div class="d-flex gap-3 align-items-center">
+                    <div class="md-horizontal-image flex-shrink-0">
+                        <img src="assets/img/popular-4.png"
+                            class=" width-px-100 height-px-100 object-fit-cover border-radius-16" alt="Image" />
+                    </div>
+                    <div class="fw-bold fs-18 color-gray-900 width-px-145 mt-2">
+                        Meeting & Events</div>
+                </div>
+                <div class="d-flex gap-3 align-items-center">
+                    <div class="md-horizontal-image flex-shrink-0">
+                        <img src="assets/img/popular-5.png"
+                            class=" width-px-100 height-px-100 object-fit-cover border-radius-16" alt="Image" />
+                    </div>
+                    <div class="fw-bold fs-18 color-gray-900 width-px-145 mt-2">
+                        Printing & Packaging</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="">
+        <div class="container">
+            <div class="call-to-action homepage-three mx-0">
+                <img src="assets/img//Circle-two.png" class="img-circle">
+                <div class="row justify-content-center align-items-center align-self-center  call-action-img-3"
+                    data-aos="fade-up">
+                    <div class="col-xl-6 intro-info" data-aos="zoom-in" data-aos-delay="100">
+                        <h2 class="mb-3 max-width-560 fs-48">Get the best<br> deal!</h2>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="group-avatar">
+                                <img src="https://globalportalassets.cubivue.com/assets/img/avatar-xs.webp"
+                                    class="avatar-xs rounded-circle" alt="team avatar" />
+                                <img src="https://globalportalassets.cubivue.com/assets/img/avatar-sm.webp"
+                                    class="avatar-xs rounded-circle" alt="team avatar" />
+                                <img src="https://globalportalassets.cubivue.com/assets/img/avatar-md.webp"
+                                    class="avatar-xs rounded-circle" alt="team avatar" />
+                                <img src="https://globalportalassets.cubivue.com/assets/img/avatar-lg.webp"
+                                    class="avatar-xs rounded-circle" alt="team avatar" />
+                                <img src="https://globalportalassets.cubivue.com/assets/img/avatar-xl.webp"
+                                    class="avatar-xs rounded-circle" alt="team avatar" />
+                                <img src="https://globalportalassets.cubivue.com/assets/img/avatar-lg.webp"
+                                    class="avatar-xs rounded-circle" alt="team avatar" />
+                            </div>
+                            <div class="text-white fs-12 ms-2"><strong>1,618</strong> <span class="fw-normal">Trusted
+                                    Vendors on platform</span></div>
+                        </div>
+                        <div>
+                            <a href="#about" class="btn text-primary bg-white mb-3 fw-medium fs-20 banner-btn">Request
+                                for Quotation </a>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 intro-img pe-xl-0 align-self-end position-relative" data-aos="zoom-out"
+                        data-aos-delay="200">
+                        <!-- <img src="assets/img/dashboard-2.svg" alt="" class="img-fluid dashboard-sub-img"> -->
+                        <img src="assets/img/happy-man.png" alt="" class="img-fluid dashboard-img m-auto">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row left-right new-customer homecustomer">
+                <div class="col-xl-4 video-box d-flex justify-content-center align-items-stretch left "
+                    data-aos="fade-right">
+                    <img src="assets/img/ORWHATiPhone.png" alt="" class="img-fluid mobile-view-img">
+                </div>
+
+                <div class="col-xl-8 icon-boxespy-5 px-lg-5 right  d-flex justify-content-xl-start justify-content-center"
+                    data-aos="fade-left">
+                    <div class=" d-flex flex-column align-items-stretch justify-content-center py-xl-5">
+                        <h2 class="fs-40 fw-medium max-width-480 mb-4 text-xl-start text-center" data-aos="zoom-in"
+                            data-aos-delay="100"><strong class="fw-semibold">
+                                Shop, Save, and Discover <br>with our Fidelen App!
+                        </h2>
+
+                        <div class="d-flex gap-3">
+                            <img src="assets/img/google.png" />
+                            <img src="assets/img/ios.png" />
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="">
+        <div class="container">
+            <div class="call-to-action homepage-two mx-0">
+                <img src="assets/img//Circle.svg" class="img-circle">
+                <div class="row justify-content-center align-items-center align-self-center  call-action-img-2"
+                    data-aos="fade-up">
+                    <div class="col-xl-6 intro-info" data-aos="zoom-in" data-aos-delay="100">
+                        <h2 class="mb-3 max-width-560 fs-48">Expand your opportunities by reaching new customers</h2>
+                        <p class="text-white-60 fs-24 fw-bold mb-5 max-width-560">Join our Vendors list.</p>
+                        <div>
+                            <a href="#about" class="btn text-red bg-white mb-3 fw-medium fs-20 banner-btn">Register Now
+                                <i class="fa-sharp fa-regular fa-arrow-right fw-bold ms-1"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 intro-img pe-xl-0 align-self-end position-relative" data-aos="zoom-out"
+                        data-aos-delay="200">
+                        <!-- <img src="assets/img/dashboard-2.svg" alt="" class="img-fluid dashboard-sub-img"> -->
+                        <img src="assets/img/happy-young-mens.png" alt="" class="img-fluid dashboard-img m-auto">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <hr class="m-0 border-top-3 color-gray-300">
+    <footer id="footer" class="container">
+        <div class="footer-top">
+            <div class=" pb-5">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-12  col-12 footer-contact">
+                        <a href="index.html" class="logo mb-2 me-3 order-lg-0 order-2"><img
+                                src="assets/img/brandLogo.svg" alt="" class="img-fluid"></a>
+                        <p class="max-width-260 line-h-20 color-gray-600 color-gray-600 mt-4">
+                            Discover the possibilities Find everything you need in one place!
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4  col-6 footer-links">
+                        <h4>About us</h4>
+                        <ul>
+                            <li> <a href="#">How it works</a></li>
+                            <li> <a href="about-us.html">Who we are</a></li>
+                            <li> <a href="contact-us.html">Contact us</a></li>
+                            <li> <a href="FAQ.html">FAQs</a></li>
+                            <li> <a href="terms-conditions.html">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4  col-6 footer-links">
+                        <h4>For Clients</h4>
+                        <ul>
+                            <li> <a href="#">Get Quotation</a></li>
+                            <li> <a href="#">Find a Service</a></li>
+                            <li> <a href="#">Register as a Client</a></li>
+                            <li> <a href="#">Blogs</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4  col-12 footer-links">
+                        <h4>How it Works?</h4>
+                        <ul>
+                            <li><a href="#">For Service Providers</a></li>
+                            <li><a href="#">Subscription Plan</a></li>
+                            <li><a href="vendor-levels.html">Vendor Levels</a></li>
+                            <li><a href="#">Register your business</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom d-flex justify-content-between align-items-center py-30 flex-sm-row flex-column">
+            <div class="copyright">
+                © Fidelen international inc 2022
+            </div>
+            <div class="footer-links">
+                <div class="social-links">
+                    <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="twitter"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End  Footer -->
+
+
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

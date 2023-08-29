@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Fidelen</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="d-flex align-items-center">
+        <a href="index.html" class="logo mb-2 me-3 "><img src="assets/img/brandLogo.svg" alt="" class="img-fluid"></a>
+        <nav id="navbar" class="navbar">
+        <a href="index.html" class="nav-mobile-logo logo mb-2 me-3"><img src="assets/img/brandLogo.svg" alt="" class="img-fluid"></a>
+          <ul>
+            <li><a class="nav-link scrollto" href="homepage.html" >Home</a></li>
+            <li><a class="nav-link scrollto" href="about-us.html">About</a></li>
+            <li><a class="nav-link scrollto active" href="profile.html">Profile</a></li>
+            <li><a class="nav-link scrollto" href="vendor-levels.html">Vendor Levels</a></li>
+            <li><a class="nav-link scrollto" href="pricing.html">Pricing</a></li>
+            <li><a class="nav-link scrollto" href="contact-us.html">Contact Us</a></li>
+          </ul>
+          <!-- <i class="bi bi-list mobile-nav-toggle me-3"></i> -->
+        </nav><!-- .navbar -->
+      </div>
+
+      <div class="right-navbar">
+        <ul class="right-ul gap-4">
+            <li>
+                <div class="select-box">
+                    <div class="select-box__current" tabindex="1">
+                      <div class="select-box__value">
+                        <input class="select-box__input" type="radio" id="0" value="1" name="Ben" checked="checked"/>
+                        <p class="select-box__input-text">Arabic</p>
+                      </div>
+                      <div class="select-box__value">
+                        <input class="select-box__input" type="radio" id="1" value="2" name="Ben" checked="checked"/>
+                        <p class="select-box__input-text">English</p>
+                      </div>
+
+                      <i class="fas fa-caret-down select-box__icon"></i>
+                    </div>
+                    <ul class="select-box__list">
+                      <li>
+                        <label class="select-box__option" for="0" aria-hidden="aria-hidden">Arabic</label>
+                      </li>
+                      <li>
+                        <label class="select-box__option" for="1" aria-hidden="aria-hidden">English</label>
+                      </li>
+                    </ul>
+                  </div>
+            </li>
+            <li class="avatar">
+                <div class="avatar-48">
+                    <img src="assets/img/user-2.jpg" class="img-fluid rounded-circle">
+                </div>
+            </li>
+
+            <i class="bi bi-list mobile-nav-toggle ms-3"></i>
+        </ul>
+    </div>
+
+    </div>
+  </header><!-- End Header -->
+
+
+    <!-- HTML to write -->
+    <section class="mt-80 bg-gray-400 py-3">
+        <div class="container">
+            <div class="d-flex gap-4 align-items-center filter-section">
+                <div class="d-flex flex-1 left-div">
+                    <div class="input-group custom-search input-group-border-after">
+                        <input type="text" class="form-control" placeholder="Office chairs and tables"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-1 flex-1 right-div">
+                    <div
+                        class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center">
+                        <img src="assets/img/communication.svg" />
+                        <span class="fs-16 fw-semibold color-gray-900">Communications</span>
+                    </div>
+                    <div
+                        class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center">
+                        <img src="assets/img/consultancy.svg" />
+                        <span class="fs-16 fw-semibold color-gray-900">Consultations</span>
+                    </div>
+                    <div
+                        class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center">
+                        <img src="assets/img/furniture.svg" />
+                        <span class="fs-16 fw-semibold color-gray-900">Furniture</span>
+                    </div>
+                    <div
+                        class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center">
+                        <img src="assets/img/health.svg" />
+                        <span class="fs-16 fw-semibold color-gray-900">Health Care</span>
+                    </div>
+                    <div
+                        class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center">
+                        <img src="assets/img/IT.svg" />
+                        <span class="fs-16 fw-semibold color-gray-900">IT & Softwares</span>
+                    </div>
+                    <div
+                        class="badge rounded-pill d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center height-px-41-6">
+                        <div class="select-box ">
+                            <div class="select-box__current" tabindex="2">
+                                <div class="select-box__value">
+                                    <input class="select-box__input" type="radio" id="3" value="31" name="more"
+                                        checked="checked" />
+                                    <p class="select-box__input-text">More</p>
+                                </div>
+                                <div class="select-box__value">
+                                    <input class="select-box__input" type="radio" id="4" value="4" name="more" />
+                                    <p class="select-box__input-text">Option</p>
+                                </div>
+
+                                <i class="fas fa-caret-down select-box__icon"></i>
+                            </div>
+                            <ul class="select-box__list">
+                                <li>
+                                    <label class="select-box__option" for="3" aria-hidden="aria-hidden">More</label>
+                                </li>
+                                <li>
+                                    <label class="select-box__option" for="4" aria-hidden="aria-hidden">Option</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="max-w-lg-1150">
+        <div class="container">
+            <div>
+                <nav aria-label="breadcrumb" class="mt-4">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Profile</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-lg-1150 pb-5 mb-5">
+        <div class="container">
+            <div>
+                <div class="border border-gray-300 p-4 rounded-3 profile-detail">
+                    <div class="d-flex justify-content-between align-items-lg-center">
+                        <div class="d-flex gap-lg-5 gap-4 align-items-lg-center flex-lg-row flex-column">
+                            <div class="d-flex gap-2 align-items-center me-3 left-div">
+                                <div class="avatar-48">
+                                    <img src="assets/img/user-2.jpg" class="img-fluid rounded-circle">
+                                </div>
+
+                                <div class="">
+                                    <h5 class="fs-18 fw-semibold color-gray-900 mb-1">Umer Farooq</h5>
+                                    <div class="d-flex align-items-center gap-1 arabic-reverse">
+                                        <img src="assets/img/building.svg">
+                                        <h6 class="fs-14  color-gray-700 mb-0">
+                                            McDonalds</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="d-flex gap-5 align-items-center ms-lg-3 middle-div">
+                                <div>
+                                    <div class="d-flex align-items-center gap-1 mb-2 arabic-reverse">
+                                        <img src="assets/img/note.svg">
+                                        <h5 class="fs-18 fw-semibold color-gray-900 mb-0">
+                                            03
+                                        </h5>
+                                    </div>
+                                    <h6 class="fs-14  color-gray-600 mb-0">My Quotations</h6>
+                                </div>
+
+                                <div>
+                                    <div class="d-flex align-items-center gap-1 mb-2 arabic-reverse">
+                                        <img src="assets/img/orders.svg">
+                                        <h5 class="fs-18 fw-semibold color-gray-900 mb-0">
+                                            14
+                                        </h5>
+                                    </div>
+                                    <h6 class="fs-14  color-gray-600 mb-0">My Orders</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <button
+                                class="btn border border-gray-300 px-lg-3 py-2 rounded-pill fw-medium arabic-reverse">
+                                <img src="assets/img/edit.svg" class="me-2">
+                                <span>
+                                    Edit profile
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <ul class="nav nav-pills mb-3 my-5 nav-border-bottom responsive-nav-pills" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-about-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-about" type="button" role="tab" aria-controls="pills-about"
+                            aria-selected="false">About</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-Quotations-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-Quotations" type="button" role="tab" aria-controls="pills-Quotations"
+                            aria-selected="false">My Quotations</button>
+                    </li>
+                    <li class="nav-item active" role="presentation">
+                        <button class="nav-link active" id="pills-Orders-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-Orders" type="button" role="tab" aria-controls="pills-Orders"
+                            aria-selected="false">My Orders</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-favoriteList-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-favoriteList" type="button" role="tab"
+                            aria-controls="pills-favoriteList" aria-selected="false">Favorite list</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-followedVendors-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-followedVendors" type="button" role="tab"
+                            aria-controls="pills-followedVendors" aria-selected="false">Followed Vendors</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-accountSettings-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-accountSettings" type="button" role="tab"
+                            aria-controls="pills-accountSettings" aria-selected="false">Account Settings</button>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-Quotations" role="tabpanel"
+                        aria-labelledby="pills-Quotations-tab" tabindex="0">
+
+                        <div class="d-flex flex-column mb-3">
+                            <a href="profile.html">
+                                <h6 class="fs-24 color-gray-900 fw-bold mb-0">
+                                    <i class="fa-solid fa-arrow-left-long me-3 fs-22 color-gray-900"></i>
+                                    Order Details <font class="text-primary">#4887548751</font>
+                                </h6>
+                            </a>
+                        </div>
+                        <div class="orders">
+                            <div class="d-flex stepper my-40 flex-wrap justify-content-xl-between">
+                                <div class="d-flex align-items-center stepper-item primary completed">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <div class="badge me-1 ">
+
+                                            <svg class="width-px-26 height-px-25">
+                                                <use xlink:href="assets/img/sprite.svg#deal"></use>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h2 class="fs-16 fw-semibold mb-0 ">Agreement</h2>
+                                            <span class="status color-gray-600 fs-14">Completed</span>
+                                        </div>
+                                    </div>
+                                    <i class="fa-solid fa-chevron-right ms-30"></i>
+                                </div>
+
+                                <div class="d-flex align-items-center stepper-item primary active">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <div class="badge me-1 ">
+
+                                            <svg class="width-px-26 height-px-25">
+                                                <use xlink:href="assets/img/sprite.svg#startup"></use>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h2 class="fs-16 fw-semibold mb-0 ">Kick-off</h2>
+                                            <span class="status color-gray-600 fs-14">In progress</span>
+                                        </div>
+                                    </div>
+                                    <i class="fa-solid fa-chevron-right ms-30"></i>
+                                </div>
+
+                                <div class="d-flex align-items-center stepper-item">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <div class="badge me-1 ">
+                                            <svg class="width-px-26 height-px-25">
+                                                <use xlink:href="assets/img/sprite.svg#delivery-status"></use>
+                                            </svg>
+                                        </div>
+                                        <dv>
+                                            <h2 class="fs-16 fw-semibold mb-0 ">Middle</h2>
+                                            <span class="status color-gray-600 fs-14">Not yet started</span>
+                                        </dv>
+                                    </div>
+                                    <i class="fa-solid fa-chevron-right ms-30"></i>
+                                </div>
+
+                                <div class="d-flex align-items-center stepper-item">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <div class="badge me-1 ">
+                                            <svg class="width-px-26 height-px-25">
+                                                <use xlink:href="assets/img/sprite.svg#box"></use>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h2 class="fs-16 fw-semibold mb-0 ">Final</h2>
+                                            <span class="status color-gray-600 fs-14">Not yet started</span>
+                                        </div>
+                                    </div>
+                                    <i class="fa-solid fa-chevron-right ms-30"></i>
+                                </div>
+
+                                <div class="d-flex align-items-center stepper-item">
+                                    <div class="d-flex align-items-center gap-2">
+                                        <div class="badge me-1 ">
+                                            <svg class="width-px-26 height-px-25">
+                                                <use xlink:href="assets/img/sprite.svg#order"></use>
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h2 class="fs-16 fw-semibold mb-0 ">Receiving</h2>
+                                            <span class="status color-gray-600 fs-14">Not yet started</span>
+                                        </div>
+                                    </div>
+                                    <i class="fa-solid fa-chevron-right ms-30"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="border border-gray-300 px-5 py-40 rounded-3 profile-detail">
+                            <div class="d-flex justify-content-between mb-3">
+                                <h6 class="fs-24 color-gray-900 fw-bold mb-0">
+                                    Deliverables
+                                </h6>
+                                <h6 class="fs-16 color-gray-900 fw-bold mb-0 d-flex">
+                                    <span class="color-gray-600 fw-medium">Phase due days: </span><span>4 days
+                                        left</span>
+                                </h6>
+                            </div>
+
+                            <div class="sheet-cell pe-3 py-3 border-bottom">
+                                <a class="d-flex align-items-center" data-bs-toggle="modal"
+                                    data-bs-target="#modal-product">
+                                    <div class="sheet-table-preview md-horizontal-image flex-shrink-0">
+                                        <img src="assets/img/north-face.png" alt="Image">
+                                    </div>
+                                    <div class="">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate">
+                                                Custom chairs and furniture </div>
+                                        </div>
+
+                                        <div class="d-inline-flex align-items-center color-gray-900 fw-medium">
+                                            <div class="d-flex gap-3 arabic-reverse">
+                                                <div class="fs-14">
+                                                    <span class="color-gray-500">Qty: </span>
+                                                    <span class="text-primary">10</span>
+                                                </div>
+                                                <div class="fs-14">
+                                                    <span class="color-gray-500">Color: </span>
+                                                    <span class="text-primary">Blue</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="sheet-cell pe-3 py-3">
+                                <a class="d-flex align-items-center" data-bs-toggle="modal"
+                                    data-bs-target="#modal-product">
+                                    <div class="sheet-table-preview md-horizontal-image flex-shrink-0">
+                                        <img src="assets/img/north-face.png" alt="Image">
+                                    </div>
+                                    <div class="">
+                                        <div class="d-flex align-items-center mb-1">
+                                            <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate">
+                                                Custom chairs and furniture </div>
+                                        </div>
+
+                                        <div class="d-inline-flex align-items-center color-gray-900 fw-medium">
+                                            <div class="d-flex gap-3 v">
+                                                <div class="fs-14">
+                                                    <span class="color-gray-500">Qty: </span>
+                                                    <span class="text-primary">10</span>
+                                                </div>
+                                                <div class="fs-14">
+                                                    <span class="color-gray-500">Color: </span>
+                                                    <span class="text-primary">Blue</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="d-flex justify-content-between mt-3">
+                                <h6 class="fs-24 color-gray-900 fw-bold mb-0">
+                                    Payment Details
+                                </h6>
+                            </div>
+
+                            <div class="mt-3">
+                                <div class="border-bottom d-flex justify-content-between py-14">
+                                    <span class="status color-gray-600 fs-14">Total Amount</span>
+                                    <h2 class="fs-16 fw-semibold mb-0 ">SAR 6500</h2>
+                                </div>
+                                <div class="border-bottom d-flex justify-content-between py-14">
+                                    <span class="status color-gray-600 fs-14">Paid</span>
+                                    <h2 class="fs-16 fw-semibold mb-0 ">SAR 6000</h2>
+                                </div>
+                                <div class="border-bottom d-flex justify-content-between py-14">
+                                    <span class="status color-gray-600 fs-14">Blanace</span>
+                                    <h2 class="fs-16 fw-semibold mb-0 ">SAR 500</h2>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-between mt-5 flex-column flex-sm-row align-items-center">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#accept-phase"
+                                    class="fs-14 fw-medium href-primary text-decoration-underline fw-semibold mb-sm-0 mb-4">Accept</a>
+                                <div>
+                                    <a href="sale-agreement.html"
+                                        class="arabic-reverse btn border border-gray-300 px-lg-3 fs-12 p-10 rounded-pill fw-medium me-2">
+                                        <svg class="icon icon-mail height-px-20 me-1">
+                                            <use xlink:href="assets/img/sprite.svg#note"></use>
+                                        </svg>View Agreement</a>
+
+                                    <a class="btn btn-primary px-lg-3 fs-12 p-10 rounded-pill fw-medium arabic-reverse"
+                                        href="#">
+                                        <svg class="icon icon-mail height-px-20 me-1">
+                                            <use xlink:href="assets/img/sprite.svg#icon-mail-currentColor"></use>
+                                        </svg> <span>Chat with Vendor</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="pills-about" role="tabpanel" aria-labelledby="pills-Quotations-tab"
+                        tabindex="0">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h6 class="fs-18 color-gray-900 fw-bold mb-0">Comapny Info</h6>
+                        </div>
+
+                        <div class="mt-3">
+                            <div class="border-bottom d-flex justify-content-between py-14">
+                                <span class="status color-gray-600 fs-14">Company name</span>
+                                <h2 class="fs-16 fw-semibold mb-0 ">Al Arab Interiors</h2>
+                            </div>
+                            <div class="border-bottom d-flex justify-content-between py-14">
+                                <span class="status color-gray-600 fs-14">User Name</span>
+                                <h2 class="fs-16 fw-semibold mb-0 ">Khurram Abbasi</h2>
+                            </div>
+                            <div class="border-bottom d-flex justify-content-between py-14">
+                                <span class="status color-gray-600 fs-14">Email</span>
+                                <h2 class="fs-16 fw-semibold mb-0 ">umer@companyemail.com</h2>
+                            </div>
+                            <div class="border-bottom d-flex justify-content-between py-14">
+                                <span class="status color-gray-600 fs-14">Mobile</span>
+                                <h2 class="fs-16 fw-semibold mb-0 ">966-11123-9658</h2>
+                            </div>
+                            <div class="border-bottom d-flex justify-content-between py-14">
+                                <span class="status color-gray-600 fs-14">CR#</span>
+                                <h2 class="fs-16 fw-semibold mb-0 ">4487548</h2>
+                            </div>
+                            <div class="border-bottom d-flex justify-content-between py-14">
+                                <span class="status color-gray-600 fs-14">VAT#</span>
+                                <h2 class="fs-16 fw-semibold mb-0 ">988689</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-Orders" role="tabpanel" aria-labelledby="pills-Orders-tab"
+                        tabindex="0">
+                        <div class="accordion mb-5" id="accordionExample">
+                            <div class="accordion-item border-0 focus-unset border-bottom border-gray-300">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button ps-0 focus-unset bg-white color-gray-900 my-2"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                        aria-expanded="true">
+                                        <h3 class="fs-16 fw-normal color-gray-600 mb-0 pe-2">For <em>“Need 6 office
+                                                chairs”</em>
+                                        </h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0 ps-0 pe-0">
+
+                                        <div class="w-100 table-sheet">
+                                            <div
+                                                class="border-bottom position-relative py-3 d-flex justify-content-between align-items-lg-center flex-lg-row flex-column">
+                                                <div class="sheet-cell pe-3 py-12">
+                                                    <a class="d-flex align-items-center" data-bs-toggle="modal"
+                                                        data-bs-target="#modal-product">
+                                                        <div
+                                                            class="sheet-table-preview md-horizontal-image flex-shrink-0">
+                                                            <img src="assets/img/north-face.png" alt="Image" />
+                                                        </div>
+                                                        <div class="">
+                                                            <div class="d-flex align-items-center mb-1">
+                                                                <div
+                                                                    class="fw-bold fs-18 mb-2 mb-md-1 me-8 me-md-0 color-gray-900 max-w-px-270 line-clamp-2">
+                                                                    Kitchen Faucet Black Kitchen Tap Pull Out Kitchen
+                                                                    Sink Mixer </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="sheet-cell px-lg-3 py-12">
+                                                    <div class="fs-15 color-gray-900 fw-medium mb-1">
+                                                        Status
+                                                    </div>
+                                                    <div class="fw-bold fs-18 color-gray-900">
+                                                        Kick-off</div>
+                                                </div>
+                                                <div class="sheet-cell px-lg-3 py-12">
+                                                    <div class="fs-15 color-gray-900 fw-medium mb-1">
+                                                        Due in
+                                                    </div>
+                                                    <div class="badge min warning-light">5 day</div>
+                                                </div>
+
+                                                <div class="sheet-cell ps-lg-3 py-12 action-btn">
+                                                    <a href="view-order.html"
+                                                        class="btn border border-gray-300 px-3 py-2 rounded-pill fw-medium">
+                                                        View Order</a>
+                                                </div>
+                                            </div>
+
+                                            <div
+                                                class="border-bottom position-relative py-3 d-flex justify-content-between align-items-lg-center flex-lg-row flex-column">
+                                                <div class="sheet-cell pe-3 py-12">
+                                                    <a class="d-flex align-items-center" data-bs-toggle="modal"
+                                                        data-bs-target="#modal-product">
+                                                        <div
+                                                            class="sheet-table-preview md-horizontal-image flex-shrink-0">
+                                                            <img src="assets/img/north-face.png" alt="Image" />
+                                                        </div>
+                                                        <div class="">
+                                                            <div class="d-flex align-items-center mb-1">
+                                                                <div
+                                                                    class="fw-bold fs-18 mb-2 mb-md-1 me-8 me-md-0 color-gray-900 max-w-px-270 line-clamp-2">
+                                                                    Kitchen Faucet Black Kitchen Tap Pull Out Kitchen
+                                                                    Sink Mixer </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="sheet-cell px-lg-3 py-12">
+                                                    <div class="fs-15 color-gray-900 fw-medium mb-1">
+                                                        Status
+                                                    </div>
+                                                    <div class="fw-bold fs-18 color-gray-900">
+                                                        Kick-off</div>
+                                                </div>
+                                                <div class="sheet-cell px-lg-3 py-12">
+                                                    <div class="fs-15 color-gray-900 fw-medium mb-1">
+                                                        Due in
+                                                    </div>
+                                                    <div class="badge min warning-light">5 day</div>
+                                                </div>
+
+                                                <div class="sheet-cell ps-lg-3 py-12 action-btn">
+                                                    <a href="view-order.html"
+                                                        class="btn border border-gray-300 px-3 py-2 rounded-pill fw-medium">
+                                                        View Order</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="accordion" id="accordionExample2">
+                            <div class="accordion-item border-0 focus-unset border-bottom border-gray-300">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button ps-0 focus-unset bg-white color-gray-900 my-2"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                        aria-expanded="true">
+                                        <h3 class="fs-16 fw-normal color-gray-600 mb-0 pe-2">For <em>“Need 6 office
+                                                chairs”</em>
+                                        </h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample2">
+                                    <div class="accordion-body pt-0 ps-0 pe-0">
+
+                                        <div class="w-100 table-sheet">
+                                            <div
+                                                class="border-bottom position-relative py-3 d-flex justify-content-between align-items-lg-center flex-lg-row flex-column">
+                                                <div class="sheet-cell pe-3 py-12">
+                                                    <a class="d-flex align-items-center" data-bs-toggle="modal"
+                                                        data-bs-target="#modal-product">
+                                                        <div
+                                                            class="sheet-table-preview md-horizontal-image flex-shrink-0">
+                                                            <img src="assets/img/north-face.png" alt="Image" />
+                                                        </div>
+                                                        <div class="">
+                                                            <div class="d-flex align-items-center mb-1">
+                                                                <div
+                                                                    class="fw-bold fs-18 mb-2 mb-md-1 me-8 me-md-0 color-gray-900 max-w-px-270 line-clamp-2">
+                                                                    Kitchen Faucet Black Kitchen Tap Pull Out Kitchen
+                                                                    Sink Mixer </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="sheet-cell px-lg-3 py-12">
+                                                    <div class="fs-15 color-gray-900 fw-medium mb-1">
+                                                        Status
+                                                    </div>
+                                                    <div class="fw-bold fs-18 color-gray-900">
+                                                        Kick-off</div>
+                                                </div>
+                                                <div class="sheet-cell px-lg-3 py-12">
+                                                    <div class="fs-15 color-gray-900 fw-medium mb-1">
+                                                        Due in
+                                                    </div>
+                                                    <div class="badge min warning-light">5 day</div>
+                                                </div>
+
+                                                <div class="sheet-cell ps-lg-3 py-12 action-btn">
+                                                    <a href="view-order.html"
+                                                        class="btn border border-gray-300 px-3 py-2 rounded-pill fw-medium">
+                                                        View Order</a>
+                                                </div>
+                                            </div>
+
+                                            <div
+                                                class="border-bottom position-relative py-3 d-flex justify-content-between align-items-lg-center flex-lg-row flex-column">
+                                                <div class="sheet-cell pe-3 py-12">
+                                                    <a class="d-flex align-items-center" data-bs-toggle="modal"
+                                                        data-bs-target="#modal-product">
+                                                        <div
+                                                            class="sheet-table-preview md-horizontal-image flex-shrink-0">
+                                                            <img src="assets/img/north-face.png" alt="Image" />
+                                                        </div>
+                                                        <div class="">
+                                                            <div class="d-flex align-items-center mb-1">
+                                                                <div
+                                                                    class="fw-bold fs-18 mb-2 mb-md-1 me-8 me-md-0 color-gray-900 max-w-px-270 line-clamp-2">
+                                                                    Kitchen Faucet Black Kitchen Tap Pull Out Kitchen
+                                                                    Sink Mixer </div>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="sheet-cell px-lg-3 py-12">
+                                                    <div class="fs-15 color-gray-900 fw-medium mb-1">
+                                                        Status
+                                                    </div>
+                                                    <div class="fw-bold fs-18 color-gray-900">
+                                                        Kick-off</div>
+                                                </div>
+                                                <div class="sheet-cell px-lg-3 py-12">
+                                                    <div class="fs-15 color-gray-900 fw-medium mb-1">
+                                                        Due in
+                                                    </div>
+                                                    <div class="badge min warning-light">5 day</div>
+                                                </div>
+
+                                                <div class="sheet-cell ps-lg-3 py-12 action-btn">
+                                                    <a href="view-order.html"
+                                                        class="btn border border-gray-300 px-3 py-2 rounded-pill fw-medium">
+                                                        View Order</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="pills-favoriteList" role="tabpanel"
+                        aria-labelledby="pills-favoriteList-tab" tabindex="0">
+                        <div class="d-grid grid-template-columns-240 gap-50-20 responsive-grid">
+                            <div class="d-flex flex-column">
+                                <div class=" md-horizontal-image flex-shrink-0">
+                                    <img src="assets/img/design-1.png"
+                                        class=" width-px-240 height-px-210 object-fit-cover border-radius-16"
+                                        alt="Image" />
+                                </div>
+                                <div class="fw-bold fs-18 color-gray-900 max-w-px-210 text-truncate mt-2">
+                                    Brand Identity Design </div>
+                                <div class="color-gray-500 fs-14">@Khurram</div>
+
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <div class="md-horizontal-image flex-shrink-0">
+                                    <img src="assets/img/design-2.png"
+                                        class=" width-px-240 height-px-210 object-fit-cover border-radius-16"
+                                        alt="Image" />
+                                </div>
+                                <div class="fw-bold fs-18 color-gray-900 max-w-px-210 text-truncate mt-2">
+                                    Brand Identity Design </div>
+                                <div class="color-gray-500 fs-14">@Khurram</div>
+
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <div class="md-horizontal-image flex-shrink-0">
+                                    <img src="assets/img/design-3.png"
+                                        class=" width-px-240 height-px-210 object-fit-cover border-radius-16"
+                                        alt="Image" />
+                                </div>
+                                <div class="fw-bold fs-18 color-gray-900 max-w-px-210 text-truncate mt-2">
+                                    Brand Identity Design </div>
+                                <div class="color-gray-500 fs-14">@Khurram</div>
+
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <div class="md-horizontal-image flex-shrink-0">
+                                    <img src="assets/img/design-4.png"
+                                        class=" width-px-240 height-px-210 object-fit-cover border-radius-16"
+                                        alt="Image" />
+                                </div>
+                                <div class="fw-bold fs-18 color-gray-900 max-w-px-210 text-truncate mt-2">
+                                    Brand Identity Design </div>
+                                <div class="color-gray-500 fs-14">@Khurram</div>
+
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-followedVendors" role="tabpanel"
+                        aria-labelledby="pills-favoriteList-tab" tabindex="0">
+                        <div class="d-grid grid-template-columns-240 gap-50-20 responsive-grid">
+                            <div class="d-flex flex-column">
+                                <div class=" md-horizontal-image flex-shrink-0">
+                                    <img src="assets/img/north-face-image.png"
+                                        class=" width-px-240 height-px-210 object-fit-cover border-radius-16"
+                                        alt="Image" />
+                                </div>
+                                <div class="d-flex align-items-center mb-1 mt-2 gap-2">
+                                    <div class="fw-bold fs-18 color-gray-900 max-w-px-210 text-truncate">
+                                        The North Face Interior </div>
+                                    <img src="assets/img/Level-1.svg" class="img-fluid width-px-20 height-px-20">
+                                </div>
+
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <div class="md-horizontal-image flex-shrink-0">
+                                    <img src="assets/img/go-pro.png"
+                                        class=" width-px-240 height-px-210 object-fit-cover border-radius-16"
+                                        alt="Image" />
+                                </div>
+                                <div class="d-flex align-items-center mb-1 mt-2 gap-2">
+                                    <div class="fw-bold fs-18 color-gray-900 max-w-px-210 text-truncate">
+                                        Go Pro </div>
+                                    <img src="assets/img/Level-2.svg" class="img-fluid width-px-20 height-px-20">
+                                </div>
+
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <div class="md-horizontal-image flex-shrink-0">
+                                    <img src="assets/img/dyson.png"
+                                        class=" width-px-240 height-px-210 object-fit-cover border-radius-16"
+                                        alt="Image" />
+                                </div>
+                                <div class="d-flex align-items-center mb-1 mt-2 gap-2">
+                                    <div class="fw-bold fs-18 color-gray-900 max-w-px-210 text-truncate">
+                                        Dyson </div>
+                                    <img src="assets/img/Level-2.svg" class="img-fluid width-px-20 height-px-20">
+                                </div>
+
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <div class="md-horizontal-image flex-shrink-0">
+                                    <img src="assets/img/mc.png"
+                                        class=" width-px-240 height-px-210 object-fit-cover border-radius-16"
+                                        alt="Image" />
+                                </div>
+                                <div class="d-flex align-items-center mb-1 mt-2 gap-2">
+                                    <div class="fw-bold fs-18 color-gray-900 max-w-px-210 text-truncate">
+                                        McDonalds </div>
+                                    <img src="assets/img/Level-2.svg" class="img-fluid width-px-20 height-px-20">
+                                </div>
+
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <div class="md-horizontal-image flex-shrink-0">
+                                    <img src="assets/img/colive.png"
+                                        class=" width-px-240 height-px-210 object-fit-cover border-radius-16"
+                                        alt="Image" />
+                                </div>
+                                <div class="d-flex align-items-center mb-1 mt-2 gap-2">
+                                    <div class="fw-bold fs-18 color-gray-900 max-w-px-210 text-truncate">
+                                        Colive </div>
+                                    <img src="assets/img/Level-2.svg" class="img-fluid width-px-20 height-px-20">
+                                </div>
+
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-column">
+                                <div class="md-horizontal-image flex-shrink-0">
+                                    <img src="assets/img/headshot.png"
+                                        class=" width-px-240 height-px-210 object-fit-cover border-radius-16"
+                                        alt="Image" />
+                                </div>
+                                <div class="d-flex align-items-center mb-1 mt-2 gap-2">
+                                    <div class="fw-bold fs-18 color-gray-900 max-w-px-210 text-truncate">
+                                        Headshot </div>
+                                    <img src="assets/img/Level-2.svg" class="img-fluid width-px-20 height-px-20">
+                                </div>
+
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="pills-accountSettings" role="tabpanel">
+                        <div class="border border-gray-300 rounded-3 p-4 mb-20">
+                            <div class="d-flex justify-content-between align-items-center mb-4">
+                                <h6 class="fs-20 color-gray-900 fw-medium mb-0">Payment Methods </h6>
+                                <a class="btn btn-primary rounded-3 py-2 fw-medium" href="add-new-payment-method.html">
+                                    Add New</a>
+                            </div>
+
+                            <div class="row g-3">
+                                <div class="col-12 col-md-6 mb-4">
+                                    <div class="border border-gray-100 rounded-3 p-3">
+                                        <div class="d-flex align-items-center d-flex justify-content-between w-100">
+                                            <div class="d-flex gap-3 align-items-center">
+                                                <div>
+                                                    <img src="assets/img/mastercard.png" />
+                                                </div>
+                                                <div>
+                                                    <h5 class="fs-16 fw-medium mb-2">MasterCard</h5>
+                                                    <h6 class="fs-14 fw-medium color-gray-600 mb-0">**** **** 0783 7873
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex gap-md-4 gap-2">
+                                                <svg class="width-px-32 height-px-32 icon-info cursor-pointer">
+                                                    <use xlink:href="assets/img/sprite.svg#trash-new"></use>
+                                                </svg>
+
+                                                <svg class="width-px-32 height-px-32 icon-info cursor-pointer">
+                                                    <use xlink:href="assets/img/sprite.svg#edit-new"></use>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb-4">
+                                    <div class="border border-gray-100 rounded-3 p-3">
+                                        <div class="d-flex align-items-center d-flex justify-content-between w-100">
+                                            <div class="d-flex gap-3 align-items-center">
+                                                <div>
+                                                    <img src="assets/img/visa.png" />
+                                                </div>
+                                                <div>
+                                                    <h5 class="fs-16 fw-medium mb-2">MasterCard</h5>
+                                                    <h6 class="fs-14 fw-medium color-gray-600 mb-0">**** **** 0783 7873
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex gap-md-4 gap-2">
+                                                <svg class="width-px-32 height-px-32 icon-info cursor-pointer">
+                                                    <use xlink:href="assets/img/sprite.svg#trash-new"></use>
+                                                </svg>
+
+                                                <svg class="width-px-32 height-px-32 icon-info cursor-pointer">
+                                                    <use xlink:href="assets/img/sprite.svg#edit-new"></use>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="border border-gray-300 rounded-3 p-4 mb-20">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h6 class="fs-20 color-gray-900 fw-medium mb-0">Wallet </h6>
+                                <div class="text-end">
+                                    <h5 class="fs-16 color-gray-600 fw-medium mb-10">Current Balance </h5>
+                                    <h6 class="fs-20 text-primary fw-bold mb-0">SR 548</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border-gray-300 rounded-3 p-4 mb-20">
+                            <div class="d-flex justify-content-between align-items-center mb-4">
+                                <h6 class="fs-20 color-gray-900 fw-medium mb-0">Update Password </h6>
+                            </div>
+
+                            <div class="row g-3">
+                                <div class="col-12 col-md-6 mb-4">
+                                    <div class="caption d-flex align-items-center mb-3 text-reset color-gray-900">Enter
+                                        Old Password
+                                        <div class="info-tooltip  ms-1 position-relative">
+                                            <svg class="icon icon-info">
+                                                <use xlink:href="assets/img/sprite.svg#icon-info"></use>
+                                            </svg>
+                                            <div class="tooltip">Hello from speech bubble!</div>
+                                        </div>
+                                    </div>
+                                    <div class="input-group-wrapper start end position-relative">
+                                        <input class="form-control font-family-inter formcontrol-input" type="text"
+                                            placeholder="Enter password">
+                                        <div class="input-group-media icon">
+                                            <svg class="icon icon-lock">
+                                                <use xlink:href="assets/img/sprite.svg#icon-lock"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="input-group-media two icon">
+                                            <i class="fa-sharp fa-regular fa-eye-slash color-gray-500"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6 mb-4">
+                                    <div class="caption d-flex align-items-center mb-3 text-reset color-gray-900">Enter
+                                        New Password
+                                        <div class="info-tooltip  ms-1 position-relative">
+                                            <svg class="icon icon-info">
+                                                <use xlink:href="assets/img/sprite.svg#icon-info"></use>
+                                            </svg>
+                                            <div class="tooltip">Hello from speech bubble!</div>
+                                        </div>
+                                    </div>
+                                    <div class="input-group-wrapper start end position-relative">
+                                        <input class="form-control font-family-inter formcontrol-input" type="text"
+                                            placeholder="Enter password">
+                                        <div class="input-group-media icon">
+                                            <svg class="icon icon-lock">
+                                                <use xlink:href="assets/img/sprite.svg#icon-lock"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="input-group-media two icon">
+                                            <i class="fa-sharp fa-regular fa-eye-slash color-gray-500"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="d-flex justify-content-end">
+                                <button class="btn btn-primary rounded-3 py-2 fw-medium">
+                                    Save Changes</button>
+                            </div>
+                        </div>
+
+                        <div class="border border-gray-300 rounded-3 p-4 mb-20">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <h6 class="fs-20 color-gray-900 fw-medium mb-0">Email Notifications </h6>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" checked>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- ======= Footer ======= -->
+    <hr class="m-0 border-top-3 color-gray-300">
+    <footer id="footer" class="container">
+        <div class="footer-top">
+            <div class=" pb-5">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-12  col-12 footer-contact">
+                        <a href="index.html" class="logo mb-2 me-3 order-lg-0 order-2"><img
+                                src="assets/img/brandLogo.svg" alt="" class="img-fluid"></a>
+                        <p class="max-width-260 line-h-20 color-gray-600 color-gray-600 mt-4">
+                            Discover the possibilities Find everything you need in one place!
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4  col-6 footer-links">
+                        <h4>About us</h4>
+                        <ul>
+                            <li> <a href="#">How it works</a></li>
+                            <li> <a href="about-us.html">Who we are</a></li>
+                            <li> <a href="contact-us.html">Contact us</a></li>
+                            <li> <a href="FAQ.html">FAQs</a></li>
+                            <li> <a href="terms-conditions.html">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4  col-6 footer-links">
+                        <h4>For Clients</h4>
+                        <ul>
+                            <li> <a href="#">Get Quotation</a></li>
+                            <li> <a href="#">Find a Service</a></li>
+                            <li> <a href="#">Register as a Client</a></li>
+                            <li> <a href="#">Blogs</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4  col-12 footer-links">
+                        <h4>How it Works?</h4>
+                        <ul>
+                            <li><a href="#">For Service Providers</a></li>
+                            <li><a href="#">Subscription Plan</a></li>
+                            <li><a href="vendor-levels.html">Vendor Levels</a></li>
+                            <li><a href="#">Register your business</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom d-flex justify-content-between align-items-center py-30 flex-sm-row flex-column">
+            <div class="copyright">
+                © Fidelen international inc 2022
+            </div>
+            <div class="footer-links">
+                <div class="social-links">
+                    <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="twitter"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End  Footer -->
+
+
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
+
+<div class="modal fade" id="accept-phase" tabindex="-1" aria-labelledby="accept-phase-label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-fullscreen-lg-down h-auto mx-auto max-w-px-410">
+        <div class="modal-content card rounded-3 p-4 p-sm-5">
+            <div class="card-head d-flex align-items-center justify-content-between">
+                <h1 class="title fs-20 mb-2">Are you sure?</h1>
+                <button class="btn-rounded btn-small close" data-bs-dismiss="modal">
+                    <svg class="icon icon-close">
+                        <use xlink:href="assets/img/sprite.svg#icon-close"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="card-body px-0">
+                <p class="fs-15 fw-medium color-gray-600 mb-0">Are you sure you want to accept this phase and move to the next phase of the order? </p>
+            </div>
+  
+            <div class="card-footer bg-white text-end p-0 border-0">
+                <button class="btn-stroke flex-grow-1 btn-small" data-bs-dismiss="modal">Cancel</button>
+                <button class="btn ms-2 flex-grow-1 btn-primary btn-small">Yes, Confirm</button>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="review" tabindex="-1" aria-labelledby="review-label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-fullscreen-lg-down h-auto mx-auto max-w-px-600">
+        <div class="modal-content card rounded-3 p-4 p-sm-5">
+            <div class="card-head d-flex align-items-center justify-content-between">
+                <h1 class="title fs-20 mb-2">Review</h1>
+                <button class="btn-rounded btn-small close" data-bs-dismiss="modal">
+                    <svg class="icon icon-close">
+                        <use xlink:href="assets/img/sprite.svg#icon-close"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="card-body px-0">
+                <p class="fs-15 fw-medium color-gray-600 mb-4">Please write a review about the product/service you received. </p>
+                <div class="mt-3">
+                    <div class="caption d-flex align-items-center text-reset color-gray-900">Vendor communication?</div>
+                    <div class="rate">
+                        <input type="radio" id="star5" name="rate5" value="5" />
+                        <label for="star5" title="text"></label>
+                        <input type="radio" id="star4" name="rate5" value="4" />
+                        <label for="star4" title="text"></label>
+                        <input type="radio" id="star3" name="rate5" value="3" checked/>
+                        <label for="star3" title="text"></label>
+                        <input type="radio" id="star2" name="rate5" value="2" />
+                        <label for="star2" title="text"></label>
+                        <input type="radio" id="star1" name="rate5" value="1" />
+                        <label for="star1" title="text"></label>
+                      </div>
+                </div>
+
+                <div class="mt-3">
+                    <div class="caption d-flex align-items-center text-reset color-gray-900">Overall experience?</div>
+                    <div class="rate">
+                        <input type="radio" id="star-four5" name="rate4" value="5" />
+                        <label for="star-four5" title="text"></label>
+                        <input type="radio" id="starfour4" name="rate4" value="4" />
+                        <label for="starfour4" title="text"></label>
+                        <input type="radio" id="starfour3" name="rate4" value="3" />
+                        <label for="starfour3" title="text"></label>
+                        <input type="radio" id="starfour2" name="rate4" value="2" checked />
+                        <label for="starfour2" title="text"></label>
+                        <input type="radio" id="starfour1" name="rate4" value="1" />
+                        <label for="starfour1" title="text"></label>
+                      </div>
+                </div>
+
+                <div class="mt-3">
+                    <div class="caption d-flex align-items-center text-reset color-gray-900">Deliverables meet agreement? </div>
+                    <div class="rate">
+                        <input type="radio" id="star-three5" name="rate3" value="5" checked/>
+                        <label for="star-three5" title="text"></label>
+                        <input type="radio" id="star-three4" name="rate3" value="4" />
+                        <label for="star-three4" title="text"></label>
+                        <input type="radio" id="star-three3" name="rate3" value="3" />
+                        <label for="star-three3" title="text"></label>
+                        <input type="radio" id="star-three2" name="rate3" value="2" />
+                        <label for="star-three2" title="text"></label>
+                        <input type="radio" id="star-three1" name="rate3" value="1" />
+                        <label for="star-three1" title="text"></label>
+                      </div>
+                </div>
+
+                <div class="mt-3">
+                    <div class="caption d-flex align-items-center text-reset color-gray-900">Recommend vendor to a friend?</div>
+                    <div class="rate">
+                        <input type="radio" id="star-two5" name="rate2" value="5" />
+                        <label for="star-two5" title="text"></label>
+                        <input type="radio" id="star-two4" name="rate2" value="4" />
+                        <label for="star-two4" title="text"></label>
+                        <input type="radio" id="star-two3" name="rate2" value="3" />
+                        <label for="star-two3" title="text"></label>
+                        <input type="radio" id="star-two2" name="rate2" value="2" />
+                        <label for="star-two2" title="text"></label>
+                        <input type="radio" id="star-two1" name="rate2" value="1" checked/>
+                        <label for="star-two1" title="text"></label>
+                      </div>
+                </div>
+
+                <div class="mt-3">
+                    <div class="caption d-flex align-items-center mb-3 text-reset color-gray-900">Write a review
+                        <div class="info-tooltip  ms-1 position-relative">
+                            <svg class="icon icon-info">
+                                <use xlink:href="assets/img/sprite.svg#icon-info"></use>
+                            </svg>
+                            <div class="tooltip">Description</div>
+                        </div>
+                    </div>
+                    <input class="form-control formcontrol-input" placeholder="Write here..." type="text">
+                </div>
+
+                <div class="my-4">
+                    <div class="d-flex align-items-center">
+                        <input class="form-check-input fs-11 me-2" type="checkbox" checked>
+                        <label class="form-check-label fw-normal" for="flexCheckDefault">
+                            On time delivery
+                        </label>
+                      </div>
+                </div>
+            </div>
+  
+            <div class="card-footer bg-white text-end p-0 border-0">
+                <button class="btn-stroke flex-grow-1 btn-small" data-bs-dismiss="modal">Cancel</button>
+                <button class="btn ms-2 flex-grow-1 btn-primary btn-small">Submit</button>
+            </div>
+        </div>
+    </div>
+  </div>
