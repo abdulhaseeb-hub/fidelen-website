@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Fidelen</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <div class="d-flex align-items-center">
+                <a href="index.html" class="logo mb-2 me-3 "><img src="assets/img/brandLogo.svg" alt=""
+                        class="img-fluid"></a>
+                <nav id="navbar" class="navbar">
+                    <a href="index.html" class="nav-mobile-logo logo mb-2 me-3"><img src="assets/img/brandLogo.svg"
+                            alt="" class="img-fluid"></a>
+                            <ul>
+                                <li><a class="nav-link scrollto" href="index.html" >Home</a></li>
+                                <li><a class="nav-link scrollto" href="about-us.html">About</a></li>
+                                <li><a class="nav-link scrollto" href="profile.html">Profile</a></li>
+                                <li><a class="nav-link scrollto active" href="search-page.html">Search Products</a></li>
+                                <li><a class="nav-link scrollto" href="vendor-levels.html">Vendor Levels</a></li>
+                                <li><a class="nav-link scrollto" href="pricing.html">Pricing</a></li>
+                                <li><a class="nav-link scrollto" href="contact-us.html">Contact Us</a></li>
+                                <li><a class="nav-link scrollto" href="how-it-works.html">How it Works</a></li>
+                                <li><a class="nav-link scrollto" href="terms-conditions.html">Terms</a></li>
+                                <li><a class="nav-link scrollto" href="FAQ.html">FAQs</a></li>
+                              </ul>
+                    <!-- <i class="bi bi-list mobile-nav-toggle me-3"></i> -->
+                </nav><!-- .navbar -->
+            </div>
+
+            <div class="right-navbar">
+                <ul class="right-ul gap-4">
+                    <li>
+                        <div class="select-box">
+                            <div class="select-box__current" tabindex="1">
+                                <div class="select-box__value">
+                                    <input class="select-box__input" type="radio" id="0" value="1" name="Ben"
+                                        checked="checked" />
+                                    <p class="select-box__input-text">English</p>
+                                </div>
+                                <div class="select-box__value">
+                                    <input class="select-box__input" type="radio" id="1" value="2" name="Ben"
+                                        checked="checked" />
+                                    <p class="select-box__input-text">Spanish</p>
+                                </div>
+
+                                <i class="fas fa-caret-down select-box__icon"></i>
+                            </div>
+                            <ul class="select-box__list">
+                                <li>
+                                    <label class="select-box__option" for="0" aria-hidden="aria-hidden">English</label>
+                                </li>
+                                <li>
+                                    <label class="select-box__option" for="1" aria-hidden="aria-hidden">Spanish</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="avatar">
+                        <div class="avatar-48">
+                            <img src="assets/img/user-2.jpg" class="img-fluid rounded-circle">
+                        </div>
+                    </li>
+
+                    <i class="bi bi-list mobile-nav-toggle ms-3"></i>
+                </ul>
+            </div>
+
+        </div>
+    </header><!-- End Header -->
+
+    <section class="mt-80 bg-gray-400 py-3">
+        <div class="container">
+            <div class="d-flex gap-4 align-items-center filter-section">
+                <div class="d-flex flex-1 left-div">
+                    <div class="input-group custom-search input-group-border-after">
+                        <input type="text" class="form-control" placeholder="Office chairs and tables"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-1 flex-1 right-div">
+                    <div
+                        class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center">
+                        <img src="assets/img/communication.svg" />
+                        <span class="fs-16 fw-semibold color-gray-900">Communications</span>
+                    </div>
+                    <div
+                        class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center">
+                        <img src="assets/img/consultancy.svg" />
+                        <span class="fs-16 fw-semibold color-gray-900">Consultations</span>
+                    </div>
+                    <div
+                        class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center">
+                        <img src="assets/img/furniture.svg" />
+                        <span class="fs-16 fw-semibold color-gray-900">Furniture</span>
+                    </div>
+                    <div
+                        class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center">
+                        <img src="assets/img/health.svg" />
+                        <span class="fs-16 fw-semibold color-gray-900">Health Care</span>
+                    </div>
+                    <div
+                        class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center">
+                        <img src="assets/img/IT.svg" />
+                        <span class="fs-16 fw-semibold color-gray-900">IT & Softwares</span>
+                    </div>
+                    <div
+                        class="badge rounded-pill d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center height-px-41-6">
+                        <div class="select-box ">
+                            <div class="select-box__current" tabindex="2">
+                                <div class="select-box__value">
+                                    <input class="select-box__input" type="radio" id="3" value="31" name="more"
+                                        checked="checked" />
+                                    <p class="select-box__input-text">More</p>
+                                </div>
+                                <div class="select-box__value">
+                                    <input class="select-box__input" type="radio" id="4" value="4" name="more" />
+                                    <p class="select-box__input-text">Option</p>
+                                </div>
+
+                                <i class="fas fa-caret-down select-box__icon"></i>
+                            </div>
+                            <ul class="select-box__list">
+                                <li>
+                                    <label class="select-box__option" for="3" aria-hidden="aria-hidden">More</label>
+                                </li>
+                                <li>
+                                    <label class="select-box__option" for="4" aria-hidden="aria-hidden">Option</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="container mt-5">
+        <nav aria-label="breadcrumb" class="mt-4">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Search Results</li>
+            </ol>
+        </nav>
+    </div>
+
+    <section class="">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-5 pb-3">
+                <h3 class="fs-40 fw-bold mb-0">Office chairs and tables</h3>
+                <div class="d-flex align-items-center">
+                    <!-- <a href="" class="fs-18 fw-medium href-primary me-3">19 items founds </a> -->
+                    <button class="btn btn-soft-primary d-xl-none" onclick="openSidebar()"><i class="fa fa-sliders me-10"></i> Show filters</button>
+                </div>
+            </div>
+
+            <div class="row">
+                
+                <div class="col-xl-3">
+                    <div class="sidebar" id="sideBar">
+                        <div class="sidebar--head d-xl-none">
+                          <span class="times" onclick="closeSidebar()">
+                            <i class="fa fa-times fs-20 text-black"></i>
+                          </span>
+                        </div>
+
+                        <div>
+                            <h3 class="fs-18 fw-bold mb-20 pe-2 color-gray-900">Filter</h3>
+                            <button class="btn btn-outline-primary rounded-pill w-100 py-2">Clear all</button>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item border-0 focus-unset border-bottom border-gray-300">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button
+                                        class="accordion-button pt-20 ps-0 focus-unset bg-white color-gray-900 shadow-none mb-1 justify-content-between bg-size-16"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                        aria-expanded="true">
+                                        <h3 class="fs-18 fw-bold mb-0 pe-2">Prices</h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body pt-0 ps-0">
+                                        <div class="mb-2">
+                                            <div class="d-flex align-items-center w-100 gap-2">
+                                                <button class="btn btn-stroke rounded-pill w-50">Low to high</button>
+                                                <button class="btn btn-stroke rounded-pill w-50">High to Low</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionExample2">
+                            <div class="accordion-item border-0 focus-unset border-bottom border-gray-300">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button
+                                        class="accordion-button pt-20 ps-0 focus-unset bg-white color-gray-900 shadow-none mb-1 justify-content-between bg-size-16"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                        aria-expanded="true">
+                                        <h3 class="fs-18 fw-bold mb-0 pe-2">Vendor Level</h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample2">
+                                    <div class="accordion-body pt-0 ps-0">
+                                        <div class="mb-2">
+                                            <div class="d-flex align-items-center w-100 gap-2 justify-content-between">
+                                                <div class="d-flex align-items-center">
+                                                    <input class="form-check-input fs-11 me-2" type="checkbox">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        <img src="assets/img/Level-1.svg"
+                                                            class="img-fluid width-px-22 height-px-22">
+                                                    </label>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <input class="form-check-input fs-11 me-2" type="checkbox">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        <img src="assets/img/Level-2.svg"
+                                                            class="img-fluid width-px-22 height-px-22">
+                                                    </label>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <input class="form-check-input fs-11 me-2" type="checkbox">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        <img src="assets/img/Level-3.svg"
+                                                            class="img-fluid width-px-22 height-px-22">
+                                                    </label>
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <input class="form-check-input fs-11 me-2" type="checkbox">
+                                                    <label class="form-check-label" for="flexCheckDefault">
+                                                        <img src="assets/img/Level-4.svg"
+                                                            class="img-fluid width-px-22 height-px-22">
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionExample3">
+                            <div class="accordion-item border-0 focus-unset border-bottom border-gray-300">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button
+                                        class="accordion-button pt-20 ps-0 focus-unset bg-white color-gray-900 shadow-none mb-1 justify-content-between bg-size-16"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                        aria-expanded="true">
+                                        <h3 class="fs-18 fw-bold mb-0 pe-2">Category</h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample3">
+                                    <div class="accordion-body pt-0 ps-0">
+                                        <div class="mb-2">
+                                            <div class="">
+                                                <label
+                                                    class="form-check-label color-gray-500 fs-15 hover-bg-gray-200 rounded-2 w-100"
+                                                    for="flexCheckDefault1">
+                                                    <div class="d-flex align-items-center p-2">
+                                                        <input class="form-check-input fs-11 me-2" type="checkbox"
+                                                            id="flexCheckDefault1" name="flexCheckDefault1">
+                                                        Category checked
+                                                    </div>
+                                                </label>
+    
+                                                <label
+                                                    class="form-check-label color-gray-500 fs-15 hover-bg-gray-200 rounded-2 w-100"
+                                                    for="flexCheckDefault2">
+                                                    <div class="d-flex align-items-center p-2">
+                                                        <input class="form-check-input fs-11 me-2" type="checkbox"
+                                                            id="flexCheckDefault2" name="flexCheckDefault2">
+                                                        Category (unchecked hover)
+                                                    </div>
+                                                </label>
+                                                <label
+                                                    class="form-check-label color-gray-500 fs-15 hover-bg-gray-200 rounded-2 w-100"
+                                                    for="flexCheckDefault3">
+                                                    <div class="d-flex align-items-center p-2">
+                                                        <input class="form-check-input fs-11 me-2" type="checkbox"
+                                                            id="flexCheckDefault3" name="flexCheckDefault3">
+                                                        Category (unchecked)
+                                                    </div>
+                                                </label>
+    
+                                                <div>
+                                                    <button class="btn ps-2 fw-medium pb-0"><i
+                                                            class="fa fa-plus me-2 fs-12"></i>More</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionExample4">
+                            <div class="accordion-item border-0 focus-unset border-bottom border-gray-300">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button
+                                        class="accordion-button pt-20 ps-0 focus-unset bg-white color-gray-900 shadow-none mb-1 justify-content-between bg-size-16"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                        aria-expanded="true">
+                                        <h3 class="fs-18 fw-bold mb-0 pe-2">Vendor Rating</h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample4">
+                                    <div class="accordion-body pt-0 ps-0">
+                                        <div class="mb-2">
+                                            <div class="">
+                                                <label class="form-check-label color-gray-500 fs-15 rounded-2 w-100"
+                                                    for="flexCheckRating1">
+                                                    <div class="d-flex align-items-center p-2">
+                                                        <input class="form-check-input fs-11 me-2" type="checkbox"
+                                                            id="flexCheckRating1" name="flexCheckRating1">
+                                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                                            </use>
+                                                        </svg>
+                                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                                            </use>
+                                                        </svg>
+                                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                                            </use>
+                                                        </svg>
+                                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                                            </use>
+                                                        </svg>
+                                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                                            </use>
+                                                        </svg>
+                                                    </div>
+                                                </label>
+    
+                                                <label class="form-check-label color-gray-500 fs-15 rounded-2 w-100"
+                                                    for="flexCheckRating2">
+                                                    <div class="d-flex align-items-center p-2">
+                                                        <input class="form-check-input fs-11 me-2" type="checkbox"
+                                                            id="flexCheckRating2" name="flexCheckRating2">
+                                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                                            </use>
+                                                        </svg>
+                                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                                            </use>
+                                                        </svg>
+                                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                                            </use>
+                                                        </svg>
+                                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                                            </use>
+                                                        </svg>
+                                                    </div>
+                                                </label>
+                                                <label class="form-check-label color-gray-500 fs-15 rounded-2 w-100"
+                                                    for="flexCheckRating3">
+                                                    <div class="d-flex align-items-center p-2">
+                                                        <input class="form-check-input fs-11 me-2" type="checkbox"
+                                                            id="flexCheckRating3" name="flexCheckRating3">
+                                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                                            </use>
+                                                        </svg>
+                                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                                            </use>
+                                                        </svg>
+                                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                                            </use>
+                                                        </svg>
+                                                    </div>
+                                                </label>
+                                                <label class="form-check-label color-gray-500 fs-15 rounded-2 w-100"
+                                                    for="flexCheckRating4">
+                                                    <div class="d-flex align-items-center p-2">
+                                                        <input class="form-check-input fs-11 me-2" type="checkbox"
+                                                            id="flexCheckRating4" name="flexCheckRating4">
+                                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                                            </use>
+                                                        </svg>
+                                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                                            </use>
+                                                        </svg>
+                                                    </div>
+                                                </label>
+                                                <label class="form-check-label color-gray-500 fs-15 rounded-2 w-100"
+                                                    for="flexCheckRating5">
+                                                    <div class="d-flex align-items-center p-2">
+                                                        <input class="form-check-input fs-11 me-2" type="checkbox"
+                                                            id="flexCheckRating5" name="flexCheckRating5">
+                                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                                            </use>
+                                                        </svg>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionExample5">
+                            <div class="accordion-item border-0 focus-unset border-bottom border-gray-300">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button
+                                        class="accordion-button pt-20 ps-0 focus-unset bg-white color-gray-900 shadow-none mb-1 justify-content-between bg-size-16"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
+                                        aria-expanded="true">
+                                        <h3 class="fs-18 fw-bold mb-0 pe-2">Delivery</h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample5">
+                                    <div class="accordion-body pt-0 ps-0">
+                                        <div class="mb-2">
+                                            <div class="">
+                                                <label
+                                                    class="form-check-label color-gray-500 fs-15 hover-bg-gray-200 rounded-2 w-100"
+                                                    for="flexCheckDelivery1">
+                                                    <div class="d-flex align-items-center p-2">
+                                                        <input class="form-check-input fs-11 me-2" type="checkbox"
+                                                            id="flexCheckDelivery1" name="flexCheckDelivery1">
+                                                            On time delivery
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="accordion" id="accordionExample6">
+                            <div class="accordion-item border-0 focus-unset border-bottom border-gray-300">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button
+                                        class="accordion-button pt-20 ps-0 focus-unset bg-white color-gray-900 shadow-none mb-1 justify-content-between bg-size-16"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix"
+                                        aria-expanded="true">
+                                        <h3 class="fs-18 fw-bold mb-0 pe-2">City</h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample6">
+                                    <div class="accordion-body pt-0 ps-0">
+                                        <div class="mb-2">
+                                            <div class="">
+                                                <label
+                                                    class="form-check-label color-gray-500 fs-15 hover-bg-gray-200 rounded-2 w-100"
+                                                    for="flexCheckCity1">
+                                                    <div class="d-flex align-items-center p-2">
+                                                        <input class="form-check-input fs-11 me-2" type="checkbox"
+                                                            id="flexCheckCity1" name="flexCheckCity1">
+                                                            Abqaiq
+                                                    </div>
+                                                </label>
+    
+                                                <label
+                                                    class="form-check-label color-gray-500 fs-15 hover-bg-gray-200 rounded-2 w-100"
+                                                    for="flexCheckCity2">
+                                                    <div class="d-flex align-items-center p-2">
+                                                        <input class="form-check-input fs-11 me-2" type="checkbox"
+                                                            id="flexCheckCity2" name="flexCheckCity2">
+                                                            Al-Dammām
+                                                    </div>
+                                                </label>
+                                                <label
+                                                    class="form-check-label color-gray-500 fs-15 hover-bg-gray-200 rounded-2 w-100"
+                                                    for="flexCheckCity3">
+                                                    <div class="d-flex align-items-center p-2">
+                                                        <input class="form-check-input fs-11 me-2" type="checkbox"
+                                                            id="flexCheckCity3" name="flexCheckCity3">
+                                                            Al-Kharj (oasis)
+                                                    </div>
+                                                </label>
+    
+                                                <div>
+                                                    <button class="btn ps-2 fw-medium pb-0"><i
+                                                            class="fa fa-plus me-2 fs-12"></i>More</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionExample7">
+                            <div class="accordion-item border-0 focus-unset border-bottom border-gray-300">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button
+                                        class="accordion-button pt-20 ps-0 focus-unset bg-white color-gray-900 shadow-none mb-1 justify-content-between bg-size-16"
+                                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven"
+                                        aria-expanded="true">
+                                        <h3 class="fs-18 fw-bold mb-0 pe-2">No. of years in Business</h3>
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse show"
+                                    data-bs-parent="#accordionExample7">
+                                    <div class="accordion-body pt-0 ps-0">
+                                        <div class="mb-2">
+                                            <div class="">
+                                                <label
+                                                    class="form-check-label color-gray-500 fs-15 hover-bg-gray-200 rounded-2 w-100"
+                                                    for="flexCheckBusiness1">
+                                                    <div class="d-flex align-items-center p-2">
+                                                        <input class="form-check-input fs-11 me-2" type="checkbox"
+                                                            id="flexCheckBusiness1" name="flexCheckBusiness1">
+                                                            1-2 Years
+                                                    </div>
+                                                </label>
+    
+                                                <label
+                                                    class="form-check-label color-gray-500 fs-15 hover-bg-gray-200 rounded-2 w-100"
+                                                    for="flexCheckBusiness2">
+                                                    <div class="d-flex align-items-center p-2">
+                                                        <input class="form-check-input fs-11 me-2" type="checkbox"
+                                                            id="flexCheckBusiness2" name="flexCheckBusiness2">
+                                                            3-5 Years
+                                                    </div>
+                                                </label>
+                                                <label
+                                                    class="form-check-label color-gray-500 fs-15 hover-bg-gray-200 rounded-2 w-100"
+                                                    for="flexCheckBusiness3">
+                                                    <div class="d-flex align-items-center p-2">
+                                                        <input class="form-check-input fs-11 me-2" type="checkbox"
+                                                            id="flexCheckBusiness3" name="flexCheckBusiness3">
+                                                            5-10 Years
+                                                    </div>
+                                                </label>
+                                                <label
+                                                    class="form-check-label color-gray-500 fs-15 hover-bg-gray-200 rounded-2 w-100"
+                                                    for="flexCheckBusiness4">
+                                                    <div class="d-flex align-items-center p-2">
+                                                        <input class="form-check-input fs-11 me-2" type="checkbox"
+                                                            id="flexCheckBusiness4" name="flexCheckBusiness4">
+                                                            10+ Years
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="cover" onclick="closeSidebar()"></div>
+                      </div>
+                   
+                </div>
+                <div class="col-xl-9">
+                    <div class="d-grid grid-template-columns-230 gap-50-20 responsive-grid">
+                        <a href="product-detail.html">
+                            <div class="d-flex flex-column">
+                                <div class=" md-horizontal-image flex-shrink-0 position-relative">
+                                    <img src="assets/img/recomended-1.png"
+                                        class="img-fluid height-px-320 object-fit-cover border-radius-16" alt="Image" />
+                                    <div
+                                        class="bg-primary text-white position-absolute top-12 start-12 rounded-4 fs-11 py-1 px-2">
+                                        25% OFF</div>
+                                </div>
+                                <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate mt-2">
+                                    Restaurant tables and chairs </div>
+                                <div class="color-gray-500 fs-14">@Khurram</div>
+    
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a href="product-detail.html">
+                            <div class="d-flex flex-column">
+                                <div class="md-horizontal-image flex-shrink-0">
+                                    <img src="assets/img/recomended-2.png"
+                                        class="img-fluid height-px-320 object-fit-cover border-radius-16" alt="Image" />
+                                </div>
+                                <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate mt-2">
+                                    Kitchen Duct full set</div>
+                                <div class="color-gray-500 fs-14">@Khurram</div>
+    
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                      
+                        <a href="product-detail.html">
+                            <div class="d-flex flex-column">
+                                <div class="md-horizontal-image flex-shrink-0">
+                                    <img src="assets/img/recomended-3.png"
+                                        class="img-fluid height-px-320 object-fit-cover border-radius-16" alt="Image" />
+                                </div>
+                                <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate mt-2">
+                                    CCTV Cameras </div>
+                                <div class="color-gray-500 fs-14">@Khurram</div>
+    
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                       
+                        <a href="product-detail.html">
+                            <div class="d-flex flex-column">
+                                <div class="md-horizontal-image flex-shrink-0">
+                                    <img src="assets/img/recomended-4.png"
+                                        class="img-fluid height-px-320 object-fit-cover border-radius-16" alt="Image" />
+                                </div>
+                                <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate mt-2">
+                                    Website development</div>
+                                <div class="color-gray-500 fs-14">@Khurram</div>
+    
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        
+                        <a href="product-detail.html">
+                            <div class="d-flex flex-column">
+                                <div class="md-horizontal-image flex-shrink-0">
+                                    <img src="assets/img/recomended-5.png"
+                                        class="img-fluid height-px-320 object-fit-cover border-radius-16" alt="Image" />
+                                </div>
+                                <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate mt-2">
+                                    Brand Identity Design </div>
+                                <div class="color-gray-500 fs-14">@Khurram</div>
+    
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                      
+                        <a href="product-detail.html">
+                            <div class="d-flex flex-column">
+                                <div class="md-horizontal-image flex-shrink-0">
+                                    <img src="assets/img/recomended-6.png"
+                                        class="img-fluid height-px-320 object-fit-cover border-radius-16" alt="Image" />
+                                </div>
+                                <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate mt-2">
+                                    UX audit and design services </div>
+                                <div class="color-gray-500 fs-14">@Khurram</div>
+    
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                       
+                        <a href="product-detail.html">
+                            <div class="d-flex flex-column">
+                                <div class="md-horizontal-image flex-shrink-0">
+                                    <img src="assets/img/recomended-7.png"
+                                        class="img-fluid height-px-320 object-fit-cover border-radius-16" alt="Image" />
+                                </div>
+                                <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate mt-2">
+                                    Health Care services </div>
+                                <div class="color-gray-500 fs-14">@Khurram</div>
+    
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                       
+                        <a href="product-detail.html">
+                            <div class="d-flex flex-column">
+                                <div class="md-horizontal-image flex-shrink-0">
+                                    <img src="assets/img/recomended-8.png"
+                                        class="img-fluid height-px-320 object-fit-cover border-radius-16" alt="Image" />
+                                </div>
+                                <div class="fw-bold fs-18 color-gray-900 max-w-px-270 text-truncate mt-2">
+                                    Cleaning and sanitizations </div>
+                                <div class="color-gray-500 fs-14">@Khurram</div>
+    
+                                <div class="align-items-center d-flex gap-4 mt-1">
+                                    <div class="color-gray-500 fs-14 color-gray-900 fw-bold">SR 350</div>
+                                    <div class="d-inline-flex align-items-center color-gray-900 fw-medium fs-14">
+                                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                            </use>
+                                        </svg>4.8
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <hr class="m-0 border-top-3 color-gray-300">
+    <footer id="footer" class="container">
+        <div class="footer-top">
+            <div class=" pb-5">
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-12  col-12 footer-contact">
+                        <a href="index.html" class="logo mb-2 me-3 order-lg-0 order-2"><img
+                                src="assets/img/brandLogo.svg" alt="" class="img-fluid"></a>
+                        <p class="max-width-260 line-h-20 color-gray-600 color-gray-600 mt-4">
+                            Discover the possibilities Find everything you need in one place!
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4  col-6 footer-links">
+                        <h4>About us</h4>
+                        <ul>
+                            <li> <a href="#">How it works</a></li>
+                            <li> <a href="#">Who we are</a></li>
+                            <li> <a href="#">Contact us</a></li>
+                            <li> <a href="#">FAQs</a></li>
+                            <li> <a href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4  col-6 footer-links">
+                        <h4>For Clients</h4>
+                        <ul>
+                            <li> <a href="#">Get Quotation</a></li>
+                            <li> <a href="#">Find a Service</a></li>
+                            <li> <a href="#">Register as a Client</a></li>
+                            <li> <a href="#">Blogs</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-4  col-12 footer-links">
+                        <h4>How it Works?</h4>
+                        <ul>
+                            <li><a href="#">For Service Providers</a></li>
+                            <li><a href="#">Subscription Plan</a></li>
+                            <li><a href="#">Vendor Levels</a></li>
+                            <li><a href="#">Register your business</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom d-flex justify-content-between align-items-center py-30 flex-sm-row flex-column">
+            <div class="copyright">
+                © Fidelen international inc 2022
+            </div>
+            <div class="footer-links">
+                <div class="social-links">
+                    <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" class="twitter"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- End  Footer -->
+
+
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

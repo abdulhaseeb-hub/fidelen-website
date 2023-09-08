@@ -1,0 +1,661 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Fidelen</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body id="body">
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+        <div class="container d-flex align-items-center justify-content-between">
+
+            <div class="d-flex align-items-center">
+                <a href="index.html" class="logo mb-2 me-3 "><img src="assets/img/brandLogo.svg" alt=""
+                        class="img-fluid"></a>
+                <nav id="navbar" class="navbar">
+                    <a href="index.html" class="nav-mobile-logo logo mb-2 me-3"><img src="assets/img/brandLogo.svg"
+                            alt="" class="img-fluid"></a>
+                            <ul>
+                                <li><a class="nav-link scrollto" href="index.html" >Home</a></li>
+                                <li><a class="nav-link scrollto" href="about-us.html">About</a></li>
+                                <li><a class="nav-link scrollto" href="profile.html">Profile</a></li>
+                                <li><a class="nav-link scrollto active" href="search-page.html">Search Products</a></li>
+                                <li><a class="nav-link scrollto" href="vendor-levels.html">Vendor Levels</a></li>
+                                <li><a class="nav-link scrollto" href="pricing.html">Pricing</a></li>
+                                <li><a class="nav-link scrollto" href="contact-us.html">Contact Us</a></li>
+                                <li><a class="nav-link scrollto" href="how-it-works.html">How it Works</a></li>
+                                <li><a class="nav-link scrollto" href="terms-conditions.html">Terms</a></li>
+                                <li><a class="nav-link scrollto" href="FAQ.html">FAQs</a></li>
+                              </ul>
+                    <!-- <i class="bi bi-list mobile-nav-toggle me-3"></i> -->
+                </nav><!-- .navbar -->
+            </div>
+
+            <div class="right-navbar">
+                <ul class="right-ul gap-4">
+                    <li>
+                        <div class="select-box">
+                            <div class="select-box__current" tabindex="1">
+                                <div class="select-box__value">
+                                    <input class="select-box__input" type="radio" id="0" value="1" name="Ben"
+                                        checked="checked" />
+                                    <p class="select-box__input-text">English</p>
+                                </div>
+                                <div class="select-box__value">
+                                    <input class="select-box__input" type="radio" id="1" value="2" name="Ben"
+                                        checked="checked" />
+                                    <p class="select-box__input-text">Spanish</p>
+                                </div>
+
+                                <i class="fas fa-caret-down select-box__icon"></i>
+                            </div>
+                            <ul class="select-box__list">
+                                <li>
+                                    <label class="select-box__option" for="0" aria-hidden="aria-hidden">English</label>
+                                </li>
+                                <li>
+                                    <label class="select-box__option" for="1" aria-hidden="aria-hidden">Spanish</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="avatar">
+                        <div class="avatar-48">
+                            <img src="assets/img/user-2.jpg" class="img-fluid rounded-circle">
+                        </div>
+                    </li>
+
+                    <i class="bi bi-list mobile-nav-toggle ms-3"></i>
+                </ul>
+            </div>
+
+        </div>
+    </header><!-- End Header -->
+
+    <section class="mt-80 bg-gray-400 py-3">
+        <div class="container">
+            <div class="d-flex gap-4 align-items-center filter-section">
+                <div class="d-flex flex-1 left-div">
+                    <div class="input-group custom-search input-group-border-after">
+                        <input type="text" class="form-control" placeholder="Office chairs and tables"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2"><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-1 flex-1 right-div">
+                    <div
+                        class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center">
+                        <img src="assets/img/communication.svg" />
+                        <span class="fs-16 fw-semibold color-gray-900">Communications</span>
+                    </div>
+                    <div
+                        class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center">
+                        <img src="assets/img/consultancy.svg" />
+                        <span class="fs-16 fw-semibold color-gray-900">Consultations</span>
+                    </div>
+                    <div
+                        class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center">
+                        <img src="assets/img/furniture.svg" />
+                        <span class="fs-16 fw-semibold color-gray-900">Furniture</span>
+                    </div>
+                    <div
+                        class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center">
+                        <img src="assets/img/health.svg" />
+                        <span class="fs-16 fw-semibold color-gray-900">Health Care</span>
+                    </div>
+                    <div
+                        class="badge rounded-pill cursor-pointer me-1 d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center">
+                        <img src="assets/img/IT.svg" />
+                        <span class="fs-16 fw-semibold color-gray-900">IT & Softwares</span>
+                    </div>
+                    <div
+                        class="badge rounded-pill d-flex gap-2 border border-default-color bg-white py-2 px-lg-3 align-items-center height-px-41-6">
+                        <div class="select-box ">
+                            <div class="select-box__current" tabindex="2">
+                                <div class="select-box__value">
+                                    <input class="select-box__input" type="radio" id="3" value="31" name="more"
+                                        checked="checked" />
+                                    <p class="select-box__input-text">More</p>
+                                </div>
+                                <div class="select-box__value">
+                                    <input class="select-box__input" type="radio" id="4" value="4" name="more" />
+                                    <p class="select-box__input-text">Option</p>
+                                </div>
+
+                                <i class="fas fa-caret-down select-box__icon"></i>
+                            </div>
+                            <ul class="select-box__list">
+                                <li>
+                                    <label class="select-box__option" for="3" aria-hidden="aria-hidden">More</label>
+                                </li>
+                                <li>
+                                    <label class="select-box__option" for="4" aria-hidden="aria-hidden">Option</label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container">
+        <div class="porduct-detail-card-wrapper mt-50 pt-4">
+            <div class="porduct-detail-card">
+                <!-- card left -->
+                <div class="product-imgs">
+                    <div class="img-display">
+                        <div class="img-showcase">
+                            <img src="assets/img/Paste-image.png" alt="shoe image">
+                            <img src="https://plus.unsplash.com/premium_photo-1661962720375-ce9097fb4d69?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1610&q=80"
+                                alt="shoe image">
+                            <img src="https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                                alt="shoe image">
+                            <img src="https://media.istockphoto.com/id/1398692646/photo/beautiful-kitchen-in-new-luxury-home-with-waterfall-quartz-island-pendant-lights-and-hardwood.webp?s=170667a&w=0&k=20&c=eo7VjhOFn2JxYwihBMFBjb-5cHoe3gsN4mW-sSOnzW0="
+                                alt="shoe image">
+                        </div>
+                    </div>
+                    <div class="img-select gap-3 mt-3 flex-lg-nowrap flex-wrap">
+                        <div class="img-item">
+                            <a href="#" data-id="1">
+                                <img src="assets/img/Paste-image.png" alt="shoe image">
+                            </a>
+                        </div>
+                        <div class="img-item">
+                            <a href="#" data-id="2">
+                                <img src="https://plus.unsplash.com/premium_photo-1661962720375-ce9097fb4d69?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1610&q=80"
+                                    alt="shoe image">
+                            </a>
+                        </div>
+                        <div class="img-item">
+                            <a href="#" data-id="3">
+                                <img src="https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                                    alt="shoe image">
+                            </a>
+                        </div>
+                        <div class="img-item">
+                            <a href="#" data-id="4">
+                                <img src="https://media.istockphoto.com/id/1398692646/photo/beautiful-kitchen-in-new-luxury-home-with-waterfall-quartz-island-pendant-lights-and-hardwood.webp?s=170667a&w=0&k=20&c=eo7VjhOFn2JxYwihBMFBjb-5cHoe3gsN4mW-sSOnzW0="
+                                    alt="shoe image">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- card right -->
+                <div class="product-content">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-2">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Search Results</li>
+                        </ol>
+                    </nav>
+                    <h2 class="fs-32 fw-bold color-gray-900 mb-12">Restaurant Kitchen Setup</h2>
+                    <p class="color-gray-600 fs-16 fw-medium mb-3">
+                        Office chairs are essential pieces of furniture for any office or workspace. They provide
+                        comfort
+                        and support to help you stay focused and productive throughout the workday.
+                    </p>
+                    <div class="d-flex mb-3">
+                        <svg class="icon icon-star-fill me-1 fill-yellow">
+                            <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                            </use>
+                        </svg>
+                        <span class="color-gray-900 fs-16 fw-semibold">4.7 <font class="color-gray-600 fw-medium">(220
+                                sold)
+                            </font></span>
+                    </div>
+
+                    <span class="color-gray-500 fs-13 fw-normal">From <font
+                            class="color-gray-600 fs-24 fw-semibold text-primary">$99.00</font></span>
+                    <a class="btn btn-primary d-block mt-40 w-100" href="#" data-bs-toggle="modal"
+                        data-bs-target="#quotation-req">Request for Quotation</a>
+
+
+                    <div class="mt-24 d-flex gap-5">
+                        <a class="arabic-reverse d-flex align-items-center" href="#">
+                            <svg class="icon icon-mail height-px-20 me-1 color-gray-900">
+                                <use xlink:href="assets/img/sprite.svg#icon-mail-currentColor"></use>
+                            </svg> <span class="color-gray-900 fs-16 fw-medium">Chat with Vendor</span>
+                        </a>
+
+                        <a class="arabic-reverse d-flex align-items-center" href="#" data-bs-toggle="modal"
+                            data-bs-target="#share">
+                            <svg class="icon icon-mail height-px-20 me-1 color-gray-900">
+                                <use xlink:href="assets/img/sprite.svg#share"></use>
+                            </svg> <span class="color-gray-900 fs-16 fw-medium">Share</span>
+                        </a>
+                    </div>
+
+                    <hr class="my-26 border-gray-500">
+
+                    <div class="d-flex justify-content-between align-items-center p-3 shadow-md rounded-3">
+                        <div class="d-flex gap-2">
+
+                            <img src="assets/img/Background.png" class="width-px-58 height-px-58" />
+                            <div>
+                                <div class="d-flex align-items-center text-reset color-gray-900 fw-bold fs-16">Arab
+                                    Interior
+                                    <img src="assets/img/Level-2.svg" class="img-fluid width-px-16 height-px-16 ms-1">
+                                </div>
+
+                                <div class="d-flex">
+                                    <svg class="icon icon-star-fill me-1 fill-yellow">
+                                        <use xlink:href="assets/img/sprite.svg#icon-star-fill">
+                                        </use>
+                                    </svg>
+                                    <span class="color-gray-900 fs-16 fw-semibold">4.7</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a href="profile.html" class="btn btn-stroke fw-medium rounded-pill py-10">View Profile</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <ul class="nav nav-pills mt-50  pt-4 mb-4 nav-border-bottom" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-about-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-about" type="button" role="tab" aria-controls="pills-about"
+                        aria-selected="false">Description</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-Quotations-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-Quotations" type="button" role="tab" aria-controls="pills-Quotations"
+                        aria-selected="false">Reviews (23)</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-Orders-tab" data-bs-toggle="pill" data-bs-target="#pills-Orders"
+                        type="button" role="tab" aria-controls="pills-Orders" aria-selected="false">FAQ</button>
+                </li>
+            </ul>
+
+            <div class="tab-content mb-5" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-about" role="tabpanel"
+                    aria-labelledby="pills-Quotations-tab" tabindex="0">
+                    <p class="color-gray-600 fs-18 fw-medium">
+                        Introducing the ultimate Restaurant Kitchen Setup, designed to provide your restaurant with
+                        everything it needs to create exceptional meals and deliver outstanding dining experiences.
+                    </p>
+
+                    <p class="color-gray-600 fs-18 fw-medium">
+                        Our Restaurant Kitchen Setup includes all of the essential tools and equipment required to run a
+                        successful kitchen. From high-quality cookware and cutlery to commercial-grade appliances and
+                        food
+                        storage solutions, this package is designed to make cooking a breeze.
+                    </p>
+
+                    <p class="color-gray-600 fs-18 fw-medium">
+                        This setup is perfect for restaurants of all sizes, from small bistros to large, high-volume
+                        establishments. Our top-of-the-line equipment ensures that your kitchen is always running
+                        smoothly,
+                        with minimal downtime and maximum efficiency.
+                        Our Restaurant Kitchen Setup includes everything you need to get started, including stainless
+                        steel
+                        work tables, commercial-grade refrigerators and freezers, gas ranges and ovens, fryers, and
+                        more.
+                        You'll also receive all of the necessary cooking utensils, knives, and smallwares needed to
+                        create
+                        delicious meals.
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="pills-Quotations" role="tabpanel" aria-labelledby="pills-Quotations-tab"
+                    tabindex="0">
+
+                    <h6 class="fs-24 fw-bold mb-4">Customer reviews</h6>
+
+                    <div class="mt-5">
+                        <div class="d-flex gap-3 align-items-center">
+                            <img class="width-px-60 height-px-60 rounded-pill object-fit-cover object-position-top"
+                                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" />
+                            <div>
+                                <span class="color-gray-900 fs-16 fw-medium">Jaxson Aminoff</span>
+                                <span class="color-gray-600 fs-14 fw-medium ms-2">Jan 12, 2088</span>
+
+                                <div class="d-flex mt-2">
+                                    <i class="fa fa-star color-yellow me-1 fs-13"></i>
+                                    <i class="fa fa-star color-yellow me-1 fs-13"></i>
+                                    <i class="fa fa-star color-yellow me-1 fs-13"></i>
+                                    <i class="fa fa-star color-yellow me-1 fs-13"></i>
+                                    <i class="fa fa-star color-yellow me-1 fs-13"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="color-gray-600 fs-18 fw-medium mt-3 mb-2">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            voluptatum
+                            deleniti atque corrupt et quas molestias excepturi sint non provident, sunt in culpa qui
+                            officia
+                            animi, id est laborum et dolorum fuga.
+                        </p>
+
+
+                        <div class="d-flex gap-3">
+                            <img src="assets/img/Paste-image.png" alt="reviews"
+                                class="width-px-58 height-px-58 rounded-3">
+                            <img src="https://plus.unsplash.com/premium_photo-1661962720375-ce9097fb4d69?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1610&q=80"
+                                alt="reviews" class="width-px-58 height-px-58 rounded-3">
+                            <img src="https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                                alt="reviews" class="width-px-58 height-px-58 rounded-3">
+                        </div>
+                    </div>
+
+                    <hr class="border-gray-500 my-24">
+
+                    <div class="mt-5">
+                        <div class="d-flex gap-3 align-items-center">
+                            <img class="width-px-60 height-px-60 rounded-pill object-fit-cover object-position-top"
+                                src="https://images.unsplash.com/photo-1621786040662-455f23dcb6ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80" />
+                            <div>
+                                <span class="color-gray-900 fs-16 fw-medium">Jaxson Aminoff</span>
+                                <span class="color-gray-600 fs-14 fw-medium ms-2">Jan 12, 2088</span>
+
+                                <div class="d-flex mt-2">
+                                    <i class="fa fa-star color-yellow me-1 fs-13"></i>
+                                    <i class="fa fa-star color-yellow me-1 fs-13"></i>
+                                    <i class="fa fa-star color-yellow me-1 fs-13"></i>
+                                    <i class="fa fa-star color-yellow me-1 fs-13"></i>
+                                    <i class="fa fa-star color-yellow me-1 fs-13"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="color-gray-600 fs-18 fw-medium mt-3 mb-2">
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                            voluptatum
+                            deleniti atque corrupt et quas molestias excepturi sint non provident, sunt in culpa qui
+                            officia
+                            animi, id est laborum et dolorum fuga.
+                        </p>
+
+
+                        <div class="d-flex gap-3">
+                            <img src="assets/img/Paste-image.png" alt="reviews"
+                                class="width-px-58 height-px-58 rounded-3">
+                            <img src="https://plus.unsplash.com/premium_photo-1661962720375-ce9097fb4d69?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1610&q=80"
+                                alt="reviews" class="width-px-58 height-px-58 rounded-3">
+                            <img src="https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                                alt="reviews" class="width-px-58 height-px-58 rounded-3">
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="tab-pane fade" id="pills-Orders" role="tabpanel" aria-labelledby="pills-Orders-tab"
+                    tabindex="0">
+                    <h6 class="fs-24 fw-bold mb-4">Frequently Asked Questions</h6>
+
+                    <div class="mt-5">
+                        <h6 class="fs-16 color-gray-900 fw-bold">How can I purchase from your marketplace?</h6>
+                        <p class="color-gray-600 fs-18 fw-medium mt-3 mb-2">
+                            We offer diverse products and services, including electronics, clothing, beauty, food,
+                            travel, and professional services such as legal and financial services. New items are
+                            frequently added to our marketplace.
+                        </p>
+                    </div>
+
+                    <hr class="border-gray-500 my-24">
+
+                    <div class="mt-5">
+                        <h6 class="fs-16 color-gray-900 fw-bold">How can I purchase from your marketplace?</h6>
+                        <p class="color-gray-600 fs-18 fw-medium mt-3 mb-2">
+                            We offer diverse products and services, including electronics, clothing, beauty, food,
+                            travel, and professional services such as legal and financial services. New items are
+                            frequently added to our marketplace.
+                        </p>
+                    </div>
+
+                    <hr class="border-gray-500 my-24">
+
+                    <div class="mt-5">
+                        <h6 class="fs-16 color-gray-900 fw-bold">How can I purchase from your marketplace?</h6>
+                        <p class="color-gray-600 fs-18 fw-medium mt-3 mb-2">
+                            We offer diverse products and services, including electronics, clothing, beauty, food,
+                            travel, and professional services such as legal and financial services. New items are
+                            frequently added to our marketplace.
+                        </p>
+                    </div>
+
+                    <hr class="border-gray-500 my-24">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        const imgs = document.querySelectorAll('.img-select a');
+        const imgBtns = [...imgs];
+        let imgId = 1;
+
+        imgBtns.forEach((imgItem) => {
+            imgItem.addEventListener('click', (event) => {
+                event.preventDefault();
+                imgId = imgItem.dataset.id;
+                slideImage();
+            });
+        });
+
+        function slideImage() {
+            const displayWidth = document.querySelector('.img-showcase img:first-child').clientWidth;
+            const bodyDir = getComputedStyle(document.getElementById('body')).direction;
+            console.log(bodyDir);
+            if (bodyDir == 'rtl') {
+                document.querySelector('.img-showcase').style.transform = `translateX(${(imgId - 1) * displayWidth}px)`;
+            }
+            else {
+                document.querySelector('.img-showcase').style.transform = `translateX(${- (imgId - 1) * displayWidth}px)`;
+            }
+        }
+        window.addEventListener('resize', slideImage);
+    </script>
+</body>
+
+</html>
+
+<div class="modal fade" id="quotation-req" tabindex="-1" aria-labelledby="quotation-req-label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-fullscreen-lg-down h-auto mx-auto max-w-px-600">
+        <div class="modal-content card rounded-3 p-4 p-sm-5">
+            <div class="card-head d-flex align-items-center justify-content-between">
+                <h1 class="title fs-20">Request a Quotation</h1>
+                <button class="btn-rounded btn-small close" data-bs-dismiss="modal">
+                    <svg class="icon icon-close">
+                        <use xlink:href="assets/img/sprite.svg#icon-close"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="card-body px-0">
+                <div class="row g-3 justify-content-around">
+
+                    <div class="row g-3 mt-0 px-0">
+                        <div class="col-md-12">
+                            <div class="caption d-flex align-items-center mb-3 text-reset color-gray-600">Order Title
+                                <font class="text-danger ms-1">*</font>
+                            </div>
+                            <input class="form-control formcontrol-input" placeholder="Enter Order Title" type="text">
+                        </div>
+                    </div>
+
+                    <div class="row g-3 mt-2 px-0">
+                        <div class="col-md-6">
+                            <div class="caption d-flex align-items-center mb-3 text-reset color-gray-600">Category <font
+                                    class="text-danger ms-1">*</font>
+                            </div>
+                            <select class="form-control form-select formSelect-option">
+                                <option>Category</option>
+                                <option>Option</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="caption d-flex align-items-center mb-3 text-reset color-gray-600">Sub-Category
+                                <font class="text-danger ms-1">*
+                                </font>
+                            </div>
+                            <select class="form-control form-select formSelect-option">
+                                <option>Sub-Category</option>
+                                <option>Option</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row g-3 mt-2 px-0">
+                        <div class="col-md-12">
+                            <div class="caption d-flex align-items-center mb-3 text-reset color-gray-600">Delivery
+                                Location <font class="text-danger ms-1">*
+                                </font>
+                            </div>
+                            <select class="form-control form-select formSelect-option">
+                                <option>Delivery Location</option>
+                                <option>Option</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row g-3 mt-2 px-0">
+                        <div class="col-md-12">
+                            <div class="caption d-flex align-items-center mb-3 text-reset color-gray-600">Order
+                                Requirements
+                            </div>
+                            <textarea class="form-control formcontrol-input" cols="50"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="row g-3 mt-2 px-0">
+                        <div class="col-md-6">
+                            <div class="caption d-flex align-items-center mb-3 text-reset color-gray-600">Quantity (if
+                                product)
+                            </div>
+                            <input class="form-control formcontrol-input" placeholder="Enter Quantity" type="number">
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="caption d-flex align-items-center mb-3 text-reset color-gray-600">Budget Range
+                            </div>
+                            <select class="form-control form-select formSelect-option">
+                                <option>Budget Range</option>
+                                <option>Option</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row g-3 mt-2 px-0">
+                        <div class="col-md-12">
+                            <button
+                                class="btn-stroke fw-medium settings-upload me-3 position-relative border-2-dotted shadow-none border-gray-500 w-100">
+                                <svg class="icon me-2">
+                                    <use xlink:href="assets/img/sprite.svg#export"></use>
+                                </svg>
+                                <input type="file" />
+                                Add Attachements
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-footer bg-white text-end p-0 border-0 mt-2">
+                <button class="btn-stroke flex-grow-1 btn-small" data-bs-dismiss="modal">Cancel</button>
+                <button class="btn ms-2 flex-grow-1 btn-primary btn-small">Send Quotation</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="share" tabindex="-1" aria-labelledby="share-label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-fullscreen-lg-down h-auto mx-auto max-w-px-410">
+        <div class="modal-content card rounded-3 p-4 p-sm-5">
+            <div class="card-head d-flex align-items-center justify-content-between">
+                <h1 class="title fs-20 mb-2">Share</h1>
+                <button class="btn-rounded btn-small close" data-bs-dismiss="modal">
+                    <svg class="icon icon-close">
+                        <use xlink:href="assets/img/sprite.svg#icon-close"></use>
+                    </svg>
+                </button>
+            </div>
+            <div class="card-body px-0">
+
+                <div class="d-flex gap-3">
+
+                    <div class="text-center cursor-pointer">
+                        <img src="assets/img/whatsapp.png" />
+                        <span class="color-gray-900 fw-normal fs-12">Whatsapp</span>
+                    </div>
+
+                    <div class="text-center cursor-pointer">
+                        <img src="assets/img/email.png" />
+                        <span class="color-gray-900 fw-normal fs-12">Email</span>
+                    </div>
+
+                    <div class="text-center cursor-pointer">
+                        <img src="assets/img/notes.png" />
+                        <span class="color-gray-900 fw-normal fs-12">Notes</span>
+                    </div>
+
+                    <div class="text-center cursor-pointer">
+                        <img src="assets/img/twitter.png" />
+                        <span class="color-gray-900 fw-normal fs-12">Twitter</span>
+                    </div>
+
+                    <div class="text-center cursor-pointer">
+                        <img src="assets/img/fb.png" />
+                        <span class="color-gray-900 fw-normal fs-12">Facebook</span>
+                    </div>
+
+                </div>
+                <div class="input-group-wrapper end position-relative mt-4">
+                    <input class="form-control bg-white border-gray-900" readonly type="text"
+                        value="shorturl.at/58547fd87457sda64">
+                    <div class="input-group-media icon end-0">
+                        <svg class="icon icon-mail" title="Copy to clipboard">
+                            <use xlink:href="assets/img/sprite.svg#clipboard"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

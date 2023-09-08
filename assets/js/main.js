@@ -326,3 +326,14 @@ if ("IntersectionObserver" in window) {
     counterObserver.observe(counter);
   });
 }
+
+
+function openSidebar() {
+  var element = document.getElementById("sideBar");
+  element.classList.add("opened");
+}
+
+function closeSidebar() {
+  var element = document.getElementById("sideBar");
+  element.classList.remove("opened");
+}
