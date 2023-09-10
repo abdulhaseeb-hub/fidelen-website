@@ -3,6 +3,7 @@
   --red: #950246;
   --bs-body-color: #161c24;
   --bs-body-font-family: ;
+  --bs-progress-bg: #f4f6f8;
 }
 
 /* Satoshi Regular */
@@ -462,6 +463,9 @@ input.form-control:focus {
   }
   .modal-sm {
     max-width: 340px;
+  }
+  .w-md-18 {
+    width: 18%;
   }
 }
 
@@ -7865,7 +7869,12 @@ section {
 ol {
   margin-bottom: 20px;
 }
-
+.text-purple {
+  color: #6731a6;
+}
+.bg-purple {
+  background: #6731a6;
+}
 .bg-primary-0-0-8 {
   background-color: rgba(230, 89, 41, 0.08);
 }
@@ -8202,6 +8211,9 @@ ol {
 }
 .shadow-md {
   box-shadow: 0 20px 32px -8px rgb(87 111 133 / 20%) !important;
+}
+.fs-60 {
+  font-size: 60px;
 }
 @media (max-width: 992px) {
   .fs-64 {
@@ -10188,6 +10200,9 @@ body.dark .sheet-table {
 .gap-50-20 {
   gap: 50px 20px;
 }
+.gap-35 {
+  gap: 35px;
+}
 .gap-50-35 {
   gap: 50px 35px;
 }
@@ -10239,9 +10254,19 @@ body.dark .sheet-table {
   color: #fda132d6;
 }
 
-@media (max-width: 992px) {
-  .responsive-grid {
-    justify-items: center;
+@media (min-width: 300px) {
+  .progress-responsive {
+    width: 320px;
+  }
+}
+@media (min-width: 600px) {
+  .progress-responsive {
+    width: 600px;
+  }
+}
+@media (max-width: 576px) {
+  .responsive-grid img {
+    width: 100%;
   }
 }
 @media (max-width: 992px) {
@@ -10290,7 +10315,6 @@ body.dark .sheet-table {
   border-radius: 16px;
 }
 
-
 .porduct-detail-card-wrapper .img-item:nth-child(1),
 .porduct-detail-card-wrapper .img-item:nth-child(2),
 .porduct-detail-card-wrapper .img-item:nth-child(3) {
@@ -10334,31 +10358,52 @@ body.dark .sheet-table {
 .porduct-detail-card-wrapper .product-link:hover {
   opacity: 0.9;
 }
-.bg-size-16::after{
+.bg-size-16::after {
   background-size: 16px !important;
 }
-.btn-outline-primary{
+.btn-outline-primary {
   border: 1px solid var(--primary) !important;
-    background: white;
-    color: var(--primary);
+  background: white;
+  color: var(--primary);
 }
-.btn-outline-primary:hover{
+.btn-outline-primary:hover {
   border: 1px solid var(--primary) !important;
-    color: white !important;
-    background: var(--primary) !important;
+  color: white !important;
+  background: var(--primary) !important;
 }
-.btn-soft-primary{
+.btn-soft-primary {
   background: #e6582a1a;
   color: var(--primary);
 }
-.btn-soft-primary:hover{
-    color: white !important;
-    background: var(--primary) !important;
+.btn-soft-primary:hover {
+  color: white !important;
+  background: var(--primary) !important;
 }
 .hover-bg-gray-200:hover {
   background: #f4f6f8 !important;
 }
+.progress {
+  background-color: #f4f6f8;
+}
 
+.side-by-side .left {
+  border-radius: 16px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.side-by-side .right img {
+  border-radius: 16px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+@media screen and (max-width: 576px) {
+  .side-by-side .right img {
+    height: 180px !important;
+  }
+}
 @media screen and (min-width: 992px) {
   .porduct-detail-card-wrapper .porduct-detail-card {
     display: grid;
@@ -10372,6 +10417,19 @@ body.dark .sheet-table {
   .porduct-detail-card-wrapper .product-content {
     padding-top: 0;
   }
+  .side-by-side .left {
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .side-by-side .right img {
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: auto !important;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -10383,22 +10441,21 @@ body.dark .sheet-table {
   }
 }
 
-
 @media screen and (max-width: 768px) {
-  .porduct-detail-card-wrapper .img-item img{
+  .porduct-detail-card-wrapper .img-item img {
     width: 106px;
     height: 92px;
   }
 }
-.object-position-top{
+.object-position-top {
   object-position: top;
 }
 
-.color-yellow{
+.color-yellow {
   color: #fda132;
 }
 
-@media(max-width:1200px){
+@media (max-width: 1200px) {
   .sidebar {
     background: #fff;
     color: #fff;
@@ -10479,5 +10536,4 @@ body.dark .sheet-table {
     margin: 0 0.5rem;
     width: 2.25rem;
   }
-  
 }
